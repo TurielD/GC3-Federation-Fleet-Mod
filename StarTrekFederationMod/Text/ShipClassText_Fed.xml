@@ -320,6 +320,36 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
  
  
+  <StringTable>
+    <Label>FederationIntrepid_Class_Name</Label>
+    <String>Intrepid</String>
+  </StringTable>
+  
+   <StringTable>
+    <Label>FederationIntrepid_Dec</Label>
+    <String>The Intrepid class starship was designed for long-term exploration missions, and is equiped with advanced command-and-control systems and strong defences to house them, with both offence and defence projection abilities.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDefiant_Class_Name</Label>
+    <String>Defiant</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>FederationDefiant_Dec</Label>
+    <String>The Defiant class experimental escort ship is one of the few Federation vessels to be designed primarily for war. It is exceptionally powerful for its size, making use of pulse phasers rather than traditional beams. Its powerful warp engines allow it to intercept most invaders which larger vessels might not catch.</String>
+  </StringTable>
+   
+  <StringTable>
+    <Label>FederationCerberus_Class_Name</Label>
+    <String>Cerberus</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>FederationCerberus_Dec</Label>
+    <String>Modeled after the experimental Promethius class starship, the Cerberus shares its cousin's advanced battle-analysis technology, though lacks the characteristic Multi-Vector-Assault mode. Instead, it coordinates the battle capability of other warships such as the Defiant class.</String>
+  </StringTable>
+   
  <!-- There is no frigate yet
  
   <StringTable>
@@ -398,6 +428,15 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <String>Galaxy designed for long range combat. Keep it in the back and watch it rack up the kills.</String>
   </StringTable>
  
+   <StringTable>
+    <Label>FederationSovereign_Class_Name</Label>
+    <String>Sovereign</String>
+  </StringTable>
+ 
+   <StringTable>
+    <Label>FederationSovereign_Dec</Label>
+    <String>The pride of the Federation, the Sovereign class is a true Flagship. Able to coordinate the fire of its escorting fleet, a Sovereign will be cutting through enemy shields right and left with its own advanced beam weaponry.</String>
+  </StringTable>
  
   <!-- there is no Destroyer yet
   <StringTable>
@@ -509,13 +548,13 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
  
   <StringTable>
-    <Label>FederationAvatarL_Class_Name</Label>
-    <String>Odyssey</String>
+    <Label>OdysseyPrototype_Class_Name</Label>
+    <String>Odyssey Prototype</String>
   </StringTable>
  
   <StringTable>
-    <Label>FederationAvatarL_Dec</Label>
-    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; it is extremely well-armed.</String>
+    <Label>OdysseyPrototype_Dec</Label>
+    <String>Equipped with the latest in Starfleet technology, this Prototype variant of the Odyssey leverages every resource the Federation has available to enhance the effectiveness of the fleet while weakening opposing forces.</String>
   </StringTable>
  
   <StringTable>
@@ -542,12 +581,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
  
   <StringTable>
-    <Label>FederationFortress_Class_Name</Label>
+    <Label>FederationOdysseyTorpedo_Class_Name</Label>
     <String>Odyssey-T</String>
   </StringTable>
  
   <StringTable>
-    <Label>FederationFortress_Dec</Label>
+    <Label>FederationOdysseyTorpedo_Dec</Label>
     <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the T variant carries missiles as its primary armament.</String>
   </StringTable>
  

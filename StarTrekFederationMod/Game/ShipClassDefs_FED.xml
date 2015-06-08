@@ -825,8 +825,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
  
   <ShipClass>
     <InternalName>FederationAvatarL</InternalName>
-    <DisplayName>FederationAvatarL_Class_Name</DisplayName>
-    <Description>FederationAvatarL_Dec</Description>
+    <DisplayName>OdysseyPrototype_Class_Name</DisplayName>
+    <Description>OdysseyPrototype_Dec</Description>
     <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.png</ThumbnailOverride>
     <ShipHullType>Huge</ShipHullType>
     <ShipRule>FavorBeam</ShipRule>
@@ -840,8 +840,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
  
   <ShipClass>
     <InternalName>FederationFortress</InternalName>
-    <DisplayName>FederationFortress_Class_Name</DisplayName>
-    <Description>FederationFortress_Dec</Description>
+    <DisplayName>FederationOdysseyTorpedo_Class_Name</DisplayName>
+    <Description>FederationOdysseyTorpedo_Dec</Description>
     <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
     <ShipHullType>Huge</ShipHullType>
     <ShipRule>FavorMissile</ShipRule>
