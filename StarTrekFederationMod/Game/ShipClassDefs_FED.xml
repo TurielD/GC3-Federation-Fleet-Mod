@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipClassList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipClassDefs.xml -->
+ 
+ 
+ <!-- Fighters -->
+  
+  <!-- Begin Ship --> 
+ 
+    <ShipClass>
+    <InternalName>FederationAssaultFighter</InternalName>
+    <DisplayName>FederationAssaultFighter_Class_Name</DisplayName>
+    <Description>FederationAssaultFighter_Dec</Description>
+    <ThumbnailOverride>Defiant Template_422129D0B9664045AF953ED719C119FC.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>Balanced</ShipRule>
+    <ShipDesign>Defiant Template_422129D0B9664045AF953ED719C119FC</ShipDesign>
+    <AIShipClass>Interceptor</AIShipClass>
+    <StrategicIcon>Knight</StrategicIcon>
+    <BlueprintDef>FedAssaultFighterBlueprint</BlueprintDef> <!-- FedAssaultFighterBlueprint -->
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationDroneInterceptor</InternalName>
+    <DisplayName>FederationDroneInterceptor_Class_Name</DisplayName>
+    <Description>FederationDroneInterceptor_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIShipClass>Interceptor</AIShipClass>
+    <StrategicIcon>Sniper</StrategicIcon>
+    <BlueprintDef>FedDroneFighterBlueprint</BlueprintDef> <!-- FedDroneFighterBlueprint -->
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationGuardianFighter</InternalName>
+    <DisplayName>FederationGuardianFighter_Class_Name</DisplayName>
+    <Description>FederationGuardianFighter_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307</ShipDesign>
+    <AIShipClass>Interceptor</AIShipClass>
+    <StrategicIcon>Guardian</StrategicIcon>
+    <BlueprintDef>FedGuardianFighterBlueprint</BlueprintDef> <!-- FedAGuardianFighterBlueprint -->
+  </ShipClass>
+ 
+ 
+ 
+ <!-- Scouts -->
+ 
+ <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationScout</InternalName>
+    <DisplayName>FederationScout_Class_Name</DisplayName>
+    <Description>FederationScout_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>Scout</ShipRule>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIShipClass>Scout</AIShipClass>
+    <StrategicIcon>Scout</StrategicIcon>
+    <BlueprintDef>FedScoutBlueprint</BlueprintDef> <!-- Fed -->
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>ProtoTypeFederationScout</InternalName>
+    <DisplayName>ProtoTypeFederationScout_Class_Name</DisplayName>
+    <Description>ProtoTypeFederationScout_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>Scout</ShipRule>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIShipClass>Scout</AIShipClass>
+    <StrategicIcon>Scout</StrategicIcon>
+    <BlueprintDef>FedProtoTypeScoutBlueprint</BlueprintDef>  <!-- Fed -->
+  </ShipClass>
+ 
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationStartingScout</InternalName>
+    <DisplayName>FederationStartingScout_Class_Name</DisplayName>
+    <Description>FederationStartingScout_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.PNG</ThumbnailOverride>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIShipClass>Scout</AIShipClass>
+    <StrategicIcon>Scout</StrategicIcon>
+    <StaticBlueprintDef>ScoutStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationStartingSurvey</InternalName>
+    <DisplayName>FederationStartingSurvey_Class_Name</DisplayName>
+    <Description>FederationStartingSurvey_Dec</Description>
+    <ThumbnailOverride>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E.png</ThumbnailOverride>
+    <ShipDesign>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E</ShipDesign>
+    <AIShipClass>Survey</AIShipClass>
+    <StrategicIcon>SurveyShip</StrategicIcon>
+    <StaticBlueprintDef>SurveyStaticBlueprint</StaticBlueprintDef> <!-- FedStartingSurveyBlueprint? if only that worked... -->
+  </ShipClass>
+ 
+   <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationSurvey</InternalName>
+    <DisplayName>FederationSurvey_Class_Name</DisplayName>
+    <Description>FederationSurvey_Dec</Description>
+    <ThumbnailOverride>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E.png</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>Scout</ShipRule>
+    <ShipDesign>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E</ShipDesign>
+    <AIShipClass>Survey</AIShipClass>
+    <StrategicIcon>SurveyShip</StrategicIcon>
+    <BlueprintDef>SurveyBlueprint</BlueprintDef>
+  </ShipClass>
+
+  
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>ProtoTypeFederationSurvey</InternalName>
+    <DisplayName>ProtoTypeFederationSurvey_Class_Name</DisplayName>
+    <Description>ProtoTypeFederationSurvey_Dec</Description>
+    <ThumbnailOverride>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071.png</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>Scout</ShipRule>
+    <ShipDesign>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071</ShipDesign>
+    <AIShipClass>Survey</AIShipClass>
+    <StrategicIcon>SurveyShip</StrategicIcon>
+    <BlueprintDef>ProtoTypeSurveyBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationExplorer</InternalName>
+    <DisplayName>FederationExplorer_Class_Name</DisplayName>
+    <Description>FederationExplorer_Dec</Description>
+    <ThumbnailOverride>Oberth Template_8E5CFD43A563402888E50D297314816A.png</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>Scout</ShipRule>
+    <ShipDesign>Oberth Template_8E5CFD43A563402888E50D297314816A</ShipDesign>
+    <AIShipClass>Scout</AIShipClass>
+    <StrategicIcon>Explorer</StrategicIcon>
+    <BlueprintDef>FedExplorerBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+ 
+
+ <!-- Tiny Ships -->
+ 
+  <!-- Begin Ship -->
+
+  <ShipClass>
+    <InternalName>FederationSniper</InternalName>
+    <DisplayName>FederationSniper_Class_Name</DisplayName>
+    <Description>FederationSniper_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307</ShipDesign>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Sniper</StrategicIcon>
+    <BlueprintDef>SniperBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>AIDefenseFederationSniper</InternalName>
+    <DisplayName>FederationSniper_Class_Name</DisplayName>
+    <Description>FederationSniper_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307T</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Defender</AIShipClass>
+    <StrategicIcon>Sniper</StrategicIcon>
+    <BlueprintDef>AIDefenseSniperBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationBomber</InternalName>
+    <DisplayName>FederationBomber_Class_Name</DisplayName>
+    <Description>FederationBomber_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Bomber</StrategicIcon>
+    <BlueprintDef>BomberBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>AIDefenseFederationBomber</InternalName>
+    <DisplayName>FederationBomber_Class_Name</DisplayName>
+    <Description>FederationBomber_Dec</Description>
+    <ThumbnailOverride>Shuttlecraft_21922D39D2E0440A8DD25B828709B389.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Shuttlecraft_21922D39D2E0440A8DD25B828709B389</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Bomber</StrategicIcon>
+    <BlueprintDef>AIDefenseBomberBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationGuardian</InternalName>
+    <DisplayName>FederationGuardian_Class_Name</DisplayName>
+    <Description>FederationGuardian_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307</ShipDesign>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Guardian</StrategicIcon>
+    <BlueprintDef>GuardianBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>ProtoTypeFederationGuardian</InternalName>
+    <DisplayName>ProtoTypeFederationGuardian_Class_Name</DisplayName>
+    <Description>ProtoTypeFederationGuardian_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307</ShipDesign>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Guardian</StrategicIcon>
+    <BlueprintDef>ProtoTypeGuardianBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>AIDefenseFederationGuardian</InternalName>
+    <DisplayName>FederationGuardian_Class_Name</DisplayName>
+    <Description>FederationGuardian_Dec</Description>
+    <ThumbnailOverride>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307.png</ThumbnailOverride>
+    <ShipHullType>Tiny</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Perigrine Fighter_8A4F17956BB140B2BE9DCF7BD95CF307</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Bomber</AIShipClass>
+    <StrategicIcon>Guardian</StrategicIcon>
+    <BlueprintDef>AIDefenseGuardianBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+ 
+ 
+ 
+ <!-- Small Ships -->
+ 
+ 
+
+ 
+  <ShipClass>
+    <InternalName>FederationCutter</InternalName>
+    <DisplayName>FederationCutter_Class_Name</DisplayName>
+    <Description>FederationCutter_Dec</Description>
+    <ThumbnailOverride>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2.PNG</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2</ShipDesign>
+    <AIShipClass>Sentinel</AIShipClass>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <BlueprintDef>CutterBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCutterL</InternalName>
+    <DisplayName>FederationCutterL_Class_Name</DisplayName>
+    <Description>FederationCutterL_Dec</Description>
+    <ThumbnailOverride>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2.PNG</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Sentinel</AIShipClass>
+    <StrategicIcon>Cutter</StrategicIcon>
+    <BlueprintDef>CutterLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationDefender</InternalName>
+    <DisplayName>FederationDefender_Class_Name</DisplayName>
+    <Description>FederationDefender_Dec</Description>
+    <ThumbnailOverride>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071.PNG</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Defender</StrategicIcon>
+    <BlueprintDef>DefenderBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationDefenderL</InternalName>
+    <DisplayName>FederationDefenderL_Class_Name</DisplayName>
+    <Description>FederationDefenderL_Dec</Description>
+    <ThumbnailOverride>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071.PNG</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Defender</StrategicIcon>
+    <BlueprintDef>DefenderLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>AIFederationDefenderL</InternalName>
+    <DisplayName>FederationDefenderL_Class_Name</DisplayName>
+    <Description>FederationDefenderL_Dec</Description>
+    <ThumbnailOverride>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071.png</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>D'Kyr Template_8D46186071CD46D3ACE331AA28AE7071</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Defender</StrategicIcon>
+    <BlueprintDef>DefenderLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationGunboat</InternalName>
+    <DisplayName>FederationGunboat_Class_Name</DisplayName>
+    <Description>FederationGunboat_Dec</Description>
+    <ThumbnailOverride>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2.png</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Gunboat</StrategicIcon>
+    <BlueprintDef>GunboatBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationGunboatL</InternalName>
+    <DisplayName>FederationGunboatL_Class_Name</DisplayName>
+    <Description>FederationGunboatL_Dec</Description>
+    <ThumbnailOverride>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2.png</ThumbnailOverride>
+    <ShipHullType>Small</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Centaur Template_CFCAF07A89FC4192B58BADAAC78322F2</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Gunboat</StrategicIcon>
+    <BlueprintDef>GunboatLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- Medium Ships -->
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCorvette</InternalName>
+    <DisplayName>FederationCorvette_Class_Name</DisplayName>
+    <Description>FederationCorvette_Dec</Description>
+    <ThumbnailOverride>Constitution Template_88E41D1BE31343128E092569B2AE8C37.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Constitution Template_88E41D1BE31343128E092569B2AE8C37</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Corvette</StrategicIcon>
+    <BlueprintDef>CorvetteBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCorvetteL</InternalName>
+    <DisplayName>FederationCorvetteL_Class_Name</DisplayName>
+    <Description>FederationCorvetteL_Dec</Description>
+    <ThumbnailOverride>Constitution Template_88E41D1BE31343128E092569B2AE8C37.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Constitution Template_88E41D1BE31343128E092569B2AE8C37</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Corvette</StrategicIcon>
+    <BlueprintDef>CorvetteLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCorvetteP</InternalName>
+    <DisplayName>FederationCorvetteP_Class_Name</DisplayName>
+    <Description>FederationCorvetteP_Dec</Description>
+    <ThumbnailOverride>Constitution Template_88E41D1BE31343128E092569B2AE8C37.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Constitution Template_88E41D1BE31343128E092569B2AE8C37</ShipDesign>
+	<AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Corvette</StrategicIcon>
+    <BlueprintDef>CorvettePBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationRanger</InternalName>
+    <DisplayName>FederationRanger_Class_Name</DisplayName>
+    <Description>FederationRanger_Dec</Description>
+    <ThumbnailOverride>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Ranger</StrategicIcon>
+    <BlueprintDef>RangerBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationRangerL</InternalName>
+    <DisplayName>FederationRangerL_Class_Name</DisplayName>
+    <Description>FederationRangerL_Dec</Description>
+    <ThumbnailOverride>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8</ShipDesign>
+    <!-- <AIOnly>true</AIOnly> -->
+    <AIShipClass>Sentinel</AIShipClass>
+    <StrategicIcon>Ranger</StrategicIcon>
+    <BlueprintDef>RangerLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationRangerP</InternalName>
+    <DisplayName>FederationRangerP_Class_Name</DisplayName>
+    <Description>FederationRangerP_Dec</Description>
+    <ThumbnailOverride>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Miranda Template_51C0BDC78F664EBCB976B82798BB93C8</ShipDesign>
+	<AIOnly>true</AIOnly>
+    <AIShipClass>Sentinel</AIShipClass>
+    <StrategicIcon>Ranger</StrategicIcon>
+    <BlueprintDef>RangerPBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+ <!--  <ShipClass>
+    <InternalName>FederationFrigate</InternalName>
+    <DisplayName>FederationFrigate_Class_Name</DisplayName>
+    <Description>FederationFrigate_Dec</Description>
+    <ThumbnailOverride>Federation_Frigate_02T.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Federation_Frigate_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Frigate</StrategicIcon>
+    <BlueprintDef>FrigateBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+ 
+  <ShipClass>
+    <InternalName>FederationFrigateL</InternalName>
+    <DisplayName>FederationFrigateL_Class_Name</DisplayName>
+    <Description>FederationFrigateL_Dec</Description>
+    <ThumbnailOverride>Federation_Frigate_02T.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Federation_Frigate_02T</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Frigate</StrategicIcon>
+    <BlueprintDef>FrigateLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+ 
+  <ShipClass>
+    <InternalName>FederationFrigateP</InternalName>
+    <DisplayName>FederationFrigateP_Class_Name</DisplayName>
+    <Description>FederationFrigateP_Dec</Description>
+    <ThumbnailOverride>Federation_Frigate_02T.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Federation_Frigate_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Frigate</StrategicIcon>
+    <BlueprintDef>FrigatePBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+ -->
+ 
+   <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationIntrepid</InternalName>
+    <DisplayName>FederationIntrepid_Class_Name</DisplayName>
+    <Description>FederationIntrepid_Dec</Description>
+    <ThumbnailOverride>Intrepid Template_54EE9F613DF940CBA5D1DD326076129E.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Intrepid Template_54EE9F613DF940CBA5D1DD326076129E</ShipDesign>
+    <AIShipClass>Sentinel</AIShipClass>
+    <StrategicIcon>Ranger</StrategicIcon>
+    <BlueprintDef>FedIntrepidBlueprint</BlueprintDef>
+  </ShipClass>
+  
+     <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationDefiant</InternalName>
+    <DisplayName>FederationDefiant_Class_Name</DisplayName>
+    <Description>FederationDefiant_Dec</Description>
+    <ThumbnailOverride>Defiant Template_422129D0B9664045AF953ED719C119FC.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Defiant Template_422129D0B9664045AF953ED719C119FC</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Corvette</StrategicIcon>
+    <BlueprintDef>FedDefiantBlueprint</BlueprintDef>
+  </ShipClass>
+   
+  <ShipClass>
+    <InternalName>FederationCerberus</InternalName>
+    <DisplayName>FederationCerberus_Class_Name</DisplayName>
+    <Description>FederationCerberus_Dec</Description>
+    <ThumbnailOverride>Cerberus Template_668BA10722B044938FF65DA575BC36D9.PNG</ThumbnailOverride>
+    <ShipHullType>Medium</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Cerberus Template_668BA10722B044938FF65DA575BC36D9</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Paladin</StrategicIcon>
+    <BlueprintDef>FedCerberusBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ <!-- Large Ships -->
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCruiser</InternalName>
+    <DisplayName>FederationCruiser_Class_Name</DisplayName>
+    <Description>FederationCruiser_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Cruiser</StrategicIcon>
+    <BlueprintDef>FedCruiserBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCruiserL</InternalName>
+    <DisplayName>FederationCruiserL_Class_Name</DisplayName>
+    <Description>FederationCruiserL_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Cruiser</StrategicIcon>
+    <BlueprintDef>CruiserLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCruiserP</InternalName>
+    <DisplayName>FederationCruiserP_Class_Name</DisplayName>
+    <Description>FederationCruiserP_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Cruiser</StrategicIcon>
+    <BlueprintDef>CruiserPBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCruiserD</InternalName>
+    <DisplayName>FederationCruiserD_Class_Name</DisplayName>
+    <Description>FederationCruiserD_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+	<AIOnly>true</AIOnly>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Cruiser</StrategicIcon>
+    <BlueprintDef>CruiserDBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+  <!-- 
+  <ShipClass>
+    <InternalName>FederationDestroyer</InternalName>
+    <DisplayName>FederationDestroyer_Class_Name</DisplayName>
+    <Description>FederationDestroyer_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.png</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Destroyer</StrategicIcon>
+    <BlueprintDef>DestroyerBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  
+  <ShipClass>
+    <InternalName>FederationDestroyerL</InternalName>
+    <DisplayName>FederationDestroyerL_Class_Name</DisplayName>
+    <Description>FederationDestroyerL_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Destroyer</StrategicIcon>
+    <BlueprintDef>DestroyerLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  
+  <ShipClass>
+    <InternalName>FederationDestroyerP</InternalName>
+    <DisplayName>FederationDestroyerP_Class_Name</DisplayName>
+    <Description>FederationDestroyerP_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Destroyer</StrategicIcon>
+    <BlueprintDef>DestroyerPBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+  <ShipClass>
+    <InternalName>FederationDestroyerD</InternalName>
+    <DisplayName>FederationDestroyerD_Class_Name</DisplayName>
+    <Description>FederationDestroyerD_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Destroyer</StrategicIcon>
+    <BlueprintDef>DestroyerDBlueprint</BlueprintDef>
+  </ShipClass>
+ -->
+ 
+  <!-- Begin Ship -->
+
+  <ShipClass>
+    <InternalName>FederationBattleship</InternalName>
+    <DisplayName>FederationBattleship_Class_Name</DisplayName>
+    <Description>FederationBattleship_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <BlueprintDef>BattleshipBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+
+  <ShipClass>
+    <InternalName>FederationBattleshipL</InternalName>
+    <DisplayName>FederationBattleshipL_Class_Name</DisplayName>
+    <Description>FederationBattleshipL_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+   <!-- <AIOnly>true</AIOnly> -->
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <BlueprintDef>BattleshipLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+
+  <ShipClass>
+    <InternalName>FederationBattleshipP</InternalName>
+    <DisplayName>FederationBattleshipP_Class_Name</DisplayName>
+    <Description>FederationBattleshipP_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <BlueprintDef>BattleshipPBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+
+  <ShipClass>
+    <InternalName>FederationBattleshipD</InternalName>
+    <DisplayName>FederationBattleshipD_Class_Name</DisplayName>
+    <Description>FederationBattleshipD_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIOnly>true</AIOnly>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <BlueprintDef>DestroyerDBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationCarrier</InternalName>
+    <DisplayName>FederationCarrier_Class_Name</DisplayName>
+    <Description>FederationCarrier_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>AssaultCarrier</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Carrier</StrategicIcon>
+    <BlueprintDef>FedCarrierBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+   <!-- Begin Ship -->
+ 
+   <ShipClass>
+    <InternalName>FederationSovereign</InternalName>
+    <DisplayName>FederationSovereign_Class_Name</DisplayName>
+    <Description>FederationSovereign_Dec</Description>
+    <ThumbnailOverride>Sovereign Template_DE673A667A884E4C9FFE96738AA509AA.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Sovereign Template_DE673A667A884E4C9FFE96738AA509AA</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Cruiser</StrategicIcon>
+    <BlueprintDef>FedSovereignBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+  <!-- Huge Ships -->
+ 
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationAvatar</InternalName>
+    <DisplayName>FederationAvatar_Class_Name</DisplayName>
+    <Description>FederationAvatar_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.png</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Avatar</StrategicIcon>
+    <BlueprintDef>OdysseyBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationAvatarL</InternalName>
+    <DisplayName>FederationAvatarL_Class_Name</DisplayName>
+    <Description>FederationAvatarL_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.png</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Avatar</StrategicIcon>
+    <BlueprintDef>OdysseyPrototypeBlueprint</BlueprintDef>
+  </ShipClass>
+  
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationFortress</InternalName>
+    <DisplayName>FederationFortress_Class_Name</DisplayName>
+    <Description>FederationFortress_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Fortress</StrategicIcon>
+    <BlueprintDef>OdysseyTorpedoBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- No special fortresses.
+ 
+  <ShipClass>
+    <InternalName>FederationFortressL</InternalName>
+    <DisplayName>FederationFortressL_Class_Name</DisplayName>
+    <Description>FederationFortressL_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Fortress</StrategicIcon>
+    <BlueprintDef>FortressLBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+
+ 
+  <ShipClass>
+    <InternalName>FederationFortressP</InternalName>
+    <DisplayName>FederationFortressP_Class_Name</DisplayName>
+    <Description>FederationFortressP_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Fortress</StrategicIcon>
+    <BlueprintDef>FortressPBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+
+ 
+  <ShipClass>
+    <InternalName>FederationFortressD</InternalName>
+    <DisplayName>FederationFortressD_Class_Name</DisplayName>
+    <Description>FederationFortressD_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorMissile</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Fortress</StrategicIcon>
+    <BlueprintDef>FortressDBlueprint</BlueprintDef>
+  </ShipClass>
+  -->
+ 
+  <!-- Begin Ship -->
+  <!--  No titan or Dreadnaughts
+  
+  
+  <ShipClass>
+    <InternalName>FederationTitan</InternalName>
+    <DisplayName>FederationTitan_Class_Name</DisplayName>
+    <Description>FederationTitan_Dec</Description>
+    <ThumbnailOverride>Federation_Titan_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>Balanced</ShipRule>
+    <ShipDesign>Federation_Titan_01T</ShipDesign>
+    <AIShipClass>CapitalShip</AIShipClass>
+    <StrategicIcon>Titan</StrategicIcon>
+    <BlueprintDef>TitanBlueprint</BlueprintDef>
+  </ShipClass> -->
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationAssaultCarrier</InternalName>
+    <DisplayName>FederationAssaultCarrier_Class_Name</DisplayName>
+    <Description>FederationAssaultCarrier_Dec</Description>
+    <ThumbnailOverride>Odyssey Template_DB2F8833E5F54996ADBF29318C273862.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>AssaultCarrier</ShipRule>
+    <ShipDesign>Odyssey Template_DB2F8833E5F54996ADBF29318C273862</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Carrier</StrategicIcon>
+    <BlueprintDef>AssaultCarrierBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+ <!-- Civilian Ships -->
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationColony</InternalName>
+    <DisplayName>FederationColony_Class_Name</DisplayName>
+    <Description>FederationColony_Dec</Description>
+    <ThumbnailOverride>Horizon_223A3E49DAB94DC2AB46BFB0644E117E.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>ColonyShip</ShipRule>
+    <ShipDesign>Horizon_223A3E49DAB94DC2AB46BFB0644E117E</ShipDesign>
+    <AIShipClass>Colony</AIShipClass>
+    <StrategicIcon>ColonyShip</StrategicIcon>
+    <BlueprintDef>ColonyBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationConstructor</InternalName>
+    <DisplayName>FederationConstructor_Class_Name</DisplayName>
+    <Description>FederationConstructor_Dec</Description>
+    <ThumbnailOverride>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Constructor</ShipRule>
+    <ShipDesign>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0</ShipDesign>
+    <AIShipClass>Constructor</AIShipClass>
+    <StrategicIcon>Constructor</StrategicIcon>
+    <BlueprintDef>FedHeavyConstructorBlueprint</BlueprintDef>
+  </ShipClass>
+  
+  <ShipClass>
+    <InternalName>FederationLightConstructor</InternalName>
+    <DisplayName>FederationLightConstructor_Class_Name</DisplayName>
+    <Description>FederationLightConstructor_Dec</Description>
+    <ThumbnailOverride>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Constructor</ShipRule>
+    <ShipDesign>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0</ShipDesign>
+    <AIShipClass>Constructor</AIShipClass>
+    <StrategicIcon>Constructor</StrategicIcon>
+    <BlueprintDef>FedLongRangeConstructorBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationFreighter</InternalName>
+    <DisplayName>FederationFreighter_Class_Name</DisplayName>
+    <Description>FederationFreighter_Dec</Description>
+    <ThumbnailOverride>Antares Freighter Template_A4F4F76B693B40048FA62D7E59B93B11.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Freighter</ShipRule>
+    <ShipDesign>Antares Freighter Template_A4F4F76B693B40048FA62D7E59B93B11</ShipDesign>
+    <AIShipClass>Freighter</AIShipClass>
+    <StrategicIcon>Freighter</StrategicIcon>
+    <BlueprintDef>FedFreighterBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationTransport</InternalName>
+    <DisplayName>FederationTransport_Class_Name</DisplayName>
+    <Description>FederationTransport_Dec</Description>
+    <ThumbnailOverride>London Template_E2895A3F9E0548B4A637906047B4667A.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Transport</ShipRule>
+    <ShipDesign>London Template_E2895A3F9E0548B4A637906047B4667A</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Transport</StrategicIcon>
+    <BlueprintDef>TransportBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationDroneCarrier</InternalName>
+    <DisplayName>FederationDroneCarrier_Class_Name</DisplayName>
+    <Description>FederationDroneCarrier_Dec</Description>
+    <ThumbnailOverride>London Template_E2895A3F9E0548B4A637906047B4667A.PNG</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>AssaultCarrier</ShipRule>
+    <ShipDesign>London Template_E2895A3F9E0548B4A637906047B4667A</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Carrier</StrategicIcon>
+    <BlueprintDef>DroneCarrierBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationBeamSupport</InternalName>
+    <DisplayName>FederationBeamSupport_Class_Name</DisplayName>
+    <Description>FederationBeamSupport_Dec</Description>
+    <ThumbnailOverride>Galaxy_F23BA565816446F1B91CF9F4EA70CF50.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>Support</ShipRule>
+    <ShipDesign>Galaxy_F23BA565816446F1B91CF9F4EA70CF50</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Support</StrategicIcon>
+    <BlueprintDef>BeamSupportBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+ 
+ <!-- support ships not included [yet]
+  <ShipClass>
+    <InternalName>FederationMissileSupport</InternalName>
+    <DisplayName>FederationMissileSupport_Class_Name</DisplayName>
+    <Description>FederationMissileSupport_Dec</Description>
+    <ThumbnailOverride>Akira Temlate_52730D666CBC4B648695B07B604C10C7.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>Support</ShipRule>
+    <ShipDesign>Akira Temlate_52730D666CBC4B648695B07B604C10C7</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Support</StrategicIcon>
+    <BlueprintDef>MissileSupportBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+  
+  <ShipClass>
+    <InternalName>FederationKineticSupport</InternalName>
+    <DisplayName>FederationKineticSupport_Class_Name</DisplayName>
+    <Description>FederationKineticSupport_Dec</Description>
+    <ThumbnailOverride>Federation_Battleship_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>Support</ShipRule>
+    <ShipDesign>Federation_Battleship_01T</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Support</StrategicIcon>
+    <BlueprintDef>KineticSupportBlueprint</BlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>FederationTacticalSupport</InternalName>
+    <DisplayName>FederationTacticalSupport_Class_Name</DisplayName>
+    <Description>FederationTacticalSupport_Dec</Description>
+    <ThumbnailOverride>Federation_Overlord_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>Support</ShipRule>
+    <ShipDesign>Federation_Overlord_01T</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Support</StrategicIcon>
+    <BlueprintDef>TacticalSupportBlueprint</BlueprintDef>
+  </ShipClass>
+ 
+-->
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationStartingColony</InternalName>
+    <DisplayName>FederationStartingColony_Class_Name</DisplayName>
+    <Description>FederationStartingColony_Dec</Description>
+    <ThumbnailOverride>Horizon_223A3E49DAB94DC2AB46BFB0644E117E.PNG</ThumbnailOverride>
+    <ShipDesign>Horizon_223A3E49DAB94DC2AB46BFB0644E117E</ShipDesign>
+    <AIShipClass>Colony</AIShipClass>
+    <StrategicIcon>ColonyShip</StrategicIcon>
+    <StaticBlueprintDef>ColonyStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+ 
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>FederationStartingConstructor</InternalName>
+    <DisplayName>FederationStartingConstructor_Class_Name</DisplayName>
+    <Description>FederationStartingConstructor_Dec</Description>
+    <ThumbnailOverride>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Constructor</ShipRule>
+    <ShipDesign>Rigel Constructor Template_128862A0310F4FC78A86E8E447510CB0</ShipDesign>
+    <AIShipClass>Constructor</AIShipClass>
+    <StrategicIcon>Constructor</StrategicIcon>
+    <StaticBlueprintDef>CampaignTerranStaticConstructorBlueprint</StaticBlueprintDef>
+  </ShipClass>
+ 
+</ShipClassList>

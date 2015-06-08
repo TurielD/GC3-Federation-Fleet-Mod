@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipStyleSetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
+ 
+  <ShipStyleSet>
+    <InternalName>FederationShipStyleSet</InternalName>
+    <DisplayName>FederationShipStyleSet_Name</DisplayName>
+    <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
+    <DisplaySampleObjGfxConfig>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E.objgfxcfg</DisplaySampleObjGfxConfig>
+    <ShipStyle>Terran</ShipStyle>
+    <StartingShipyard>BasicShipyard</StartingShipyard>
+ 
+    <InitialAssaultFighter>FederationAssaultFighter</InitialAssaultFighter> 
+    <InitialInterceptorFighter>FederationDroneInterceptor</InitialInterceptorFighter> 
+    <InitialEscortFighter>FederationAssaultFighter</InitialEscortFighter> 
+    <InitialGuardianFighter>FederationGuardianFighter</InitialGuardianFighter> 
+    
+	<ShipClass>FederationColony</ShipClass> <!-- Horizon -->
+    <ShipClass>FederationConstructor</ShipClass> <!-- Rigel -->
+	<ShipClass>FederationLightConstructor</ShipClass> <!-- Rigel -->
+    <ShipClass>FederationTransport</ShipClass> <!-- London -->
+    <ShipClass>FederationFreighter</ShipClass> <!-- Antares -->
+    <ShipClass>FederationDroneCarrier</ShipClass> <!-- London -->
+	
+	<ShipClass>FederationDroneInterceptor</ShipClass> <!-- Shuttle -->
+    <ShipClass>FederationGuardianFighter</ShipClass> <!-- Perigrine -->
+    <ShipClass>FederationAssaultFighter</ShipClass> <!-- Defiant -->
+	
+    <ShipClass>FederationStartingScout</ShipClass> <!-- shuttle -->
+    <ShipClass>FederationStartingSurvey</ShipClass> <!-- Constitution -->
+    <ShipClass>FederationStartingColony</ShipClass> <!-- Horizon -->
+	
+	<ShipClass>FederationSurvey</ShipClass> <!-- Constitution -->
+    <ShipClass>ProtoTypeFederationScout</ShipClass> <!-- shuttle -->
+    <ShipClass>FederationScout</ShipClass> <!-- shuttle -->
+    <ShipClass>ProtoTypeFederationSurvey</ShipClass> <!-- D'kyr -->
+    <ShipClass>FederationExplorer</ShipClass> <!-- Oberth -->
+	
+    <ShipClass>FederationSniper</ShipClass> <!-- Peregrine -->
+	<ShipClass>AIDefenseFederationSniper</ShipClass> <!-- Peregrine -->
+	
+    <ShipClass>FederationBomber</ShipClass> <!-- shuttle -->
+    <ShipClass>AIDefenseFederationBomber</ShipClass> <!-- shuttle --> 
+	
+    <ShipClass>FederationGuardian</ShipClass> <!-- Peregrine -->
+    <ShipClass>AIDefenseFederationGuardian</ShipClass> <!-- Peregrine -->
+    <ShipClass>PrototypeFederationGuardian</ShipClass> <!-- Peregrine -->	
+
+
+
+	
+    <ShipClass>FederationCutter</ShipClass> <!-- Centaur -->
+    <ShipClass>FederationCutterL</ShipClass> <!-- Centaur -->
+	
+    <ShipClass>FederationDefender</ShipClass> <!-- D'kyr -->
+    <ShipClass>FederationDefenderL</ShipClass> <!-- D'kyr -->
+	
+    <ShipClass>FederationGunboat</ShipClass> <!-- Centaur -->
+    <ShipClass>FederationGunboatL</ShipClass> <!-- Centaur -->
+	
+
+ 
+	
+    <ShipClass>FederationCorvette</ShipClass> <!-- Constitution Refit -->
+    <ShipClass>FederationCorvetteL</ShipClass> <!-- Constitution Refit -->
+    <ShipClass>FederationCorvetteP</ShipClass> <!-- Constitution Refit -->
+	
+    <ShipClass>FederationRanger</ShipClass> <!-- Miranda -->
+    <ShipClass>FederationRangerL</ShipClass> <!-- Miranda -->
+    <ShipClass>FederationRangerP</ShipClass> <!-- Miranda -->
+	
+	<ShipClass>FederationIntrepid</ShipClass>
+	<ShipClass>FederationDefiant</ShipClass>
+	<ShipClass>FederationCerberus</ShipClass>
+	
+	<!--
+	<ShipClass>FederationFrigate</ShipClass>
+    <ShipClass>FederationFrigateL</ShipClass>
+    <ShipClass>FederationFrigateP</ShipClass>
+	Need kinetic medium (Excelsior?) -->
+    
+	<ShipClass>FederationCruiser</ShipClass> <!-- Galaxy -->
+    <ShipClass>FederationCruiserL</ShipClass> <!-- Galaxy -->
+    <ShipClass>FederationCruiserP</ShipClass> <!-- Galaxy -->
+    <ShipClass>FederationCruiserD</ShipClass> <!-- Galaxy -->
+    
+	<!-- no federation large Missile ship
+	<ShipClass>FederationDestroyer</ShipClass>
+    <ShipClass>FederationDestroyerL</ShipClass> 
+    <ShipClass>FederationDestroyerP</ShipClass> 
+    <ShipClass>FederationDestroyerD</ShipClass> 
+   -->
+  
+    <ShipClass>FederationBattleship</ShipClass> <!-- Akira -->
+    <ShipClass>FederationBattleshipL</ShipClass> <!-- Akira -->
+    <ShipClass>FederationBattleshipP</ShipClass> <!-- Akira -->
+    <ShipClass>FederationBattleshipD</ShipClass> <!-- Akira -->
+	
+	<ShipClass>FederationSovereign</ShipClass>
+	
+	
+	
+    <ShipClass>FederationAvatar</ShipClass> <!-- Odyssey -->
+    <ShipClass>FederationAvatarL</ShipClass> <!-- Odyssey -->
+ <!--   <ShipClass>FederationAvatarP</ShipClass> 
+    <ShipClass>FederationAvatarD</ShipClass> Odyssey -->
+	
+    <ShipClass>FederationFortress</ShipClass> <!-- Odyssey -->
+ <!--     <ShipClass>FederationFortressL</ShipClass> Odyssey -->
+ <!--     <ShipClass>FederationFortressP</ShipClass> Odyssey -->
+ <!--     <ShipClass>FederationFortressD</ShipClass> Odyssey -->
+
+   <!--
+   <ShipClass>FederationTitan</ShipClass>
+	Not sure a titan type is desirable, will consider -->
+	
+    <ShipClass>FederationCarrier</ShipClass> <!-- Galaxy -->
+    <ShipClass>FederationAssaultCarrier</ShipClass> <!-- Odyssey -->
+
+	<ShipClass>FederationBeamSupport</ShipClass> <!-- Galaxy; would like Nebula -->
+   
+   <!--
+	<ShipClass>TerranMissileSupport</ShipClass>
+    <ShipClass>TerranKineticSupport</ShipClass>
+    <ShipClass>TerranTacticalSupport</ShipClass>
+    not sure I want large support, Nebula for tactical maybe --> 
+
+    <!--<ShipClass>AIDefenseTerranKnight</ShipClass>-->
+    <ShipClass>AwardTerranScout</ShipClass>
+    <ShipClass>AwardTerranCutter</ShipClass>
+    <ShipClass>AwardTerranDefender</ShipClass>
+    <ShipClass>AwardTerranGunboat</ShipClass>
+    <ShipClass>AwardTerranSurvey</ShipClass>
+    <ShipClass>AwardTerranFrigate</ShipClass>
+    <ShipClass>AwardTerranOverlord</ShipClass>
+    <ShipClass>AwardTerranColony</ShipClass>
+    <ShipClass>AwardTerranConstructor</ShipClass>
+    <ShipClass>AwardTerranFreighter</ShipClass>
+    <ShipClass>AwardTerranTransport</ShipClass>
+ 
+    <ShipyardArtDefine>
+      <ObjectGfxConfig>Terran_Shipyard_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>T_Shipyard_01.png</ThumbnailOverride>
+    </ShipyardArtDefine>
+ 
+    <StarbaseArtDefine>
+      <ModuleType>Generic</ModuleType>
+      <ObjectGfxConfig>Terran_Level_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Level_01b.png</ThumbnailOverride>
+      <StrategicIcon>Starbase</StrategicIcon>
+    </StarbaseArtDefine>
+ 
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_01b.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_02.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_03.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_04.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_05.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+ 
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_01b.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_02.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_03.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_04.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_05.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+ 
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_01b.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_02b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_02b.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_03.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_04.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_05.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+ 
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_01b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_02b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_02b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_03b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_03b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_04b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_04b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_05a.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_05a.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+ 
+    <StarbaseSFXDefine>TERRAN_STARBASE_AMBIENT</StarbaseSFXDefine>
+ 
+  </ShipStyleSet>
+ 
+</ShipStyleSetList>

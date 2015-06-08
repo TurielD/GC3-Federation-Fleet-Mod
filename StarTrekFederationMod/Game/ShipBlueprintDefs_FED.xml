@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipBlueprintList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipBlueprintDefs.xml -->
+
+<!-- template
+  
+  <ShipBlueprint>
+    <InternalName></InternalName>
+    <ShipHullType>/ShipHullType>
+    <Role></Role>
+    <RequiredComponentType></RequiredComponentType>
+	<RequiredComponentType></RequiredComponentType>
+    <ComponentType></ComponentType>
+    <ComponentType></ComponentType>
+    <ComponentType></ComponentType>
+    <ComponentType></ComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>InterstellarDrive</FillerComponentType>
+  </ShipBlueprint>
+-->
+
+<!-- Fighters -->  
+  
+ <!-- Assault FIghter - small fighter, is now Defiant -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedAssaultFighterBlueprint</InternalName>
+    <ShipHullType>Small</ShipHullType>
+    <Role>Assault</Role>
+    <CanBeBuilt>false</CanBeBuilt>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <RequiredComponentType>MissileWeapon</RequiredComponentType>
+    <RequiredComponentType>KineticWeapon</RequiredComponentType>
+    <RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+    <RequiredComponentType>PointDefense</RequiredComponentType>
+    <RequiredComponentType>SublightDrive</RequiredComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>MissileWeapon</ComponentType>
+    <ComponentType>KineticWeapon</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>KineticWeapon</FillerComponentType>
+    <FillerComponentType>MissileWeapon</FillerComponentType>
+	<AllRequiredMustFit>true</AllRequiredMustFit>
+  </ShipBlueprint>
+  
+  
+   <!-- Interceptor Fighter - small beam fighter, is now shuttle which hangs back -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedDroneFighterBlueprint</InternalName>
+    <ShipHullType>Tiny</ShipHullType>
+    <Role>Guardian</Role>
+    <CanBeBuilt>false</CanBeBuilt>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <RequiredComponentType>SublightDrive</RequiredComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <AllRequiredMustFit>true</AllRequiredMustFit>
+  </ShipBlueprint>
+ 
+  <!-- Guardian Fighter - small beam fighter, is now Perigrine which rushes to kill -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedGuardianFighterBlueprint</InternalName>
+    <ShipHullType>Tiny</ShipHullType>
+    <Role>Interceptor</Role>
+    <CanBeBuilt>false</CanBeBuilt>
+    <RequiredComponentType>KineticWeapon</RequiredComponentType>
+    <RequiredComponentType>Armor</RequiredComponentType>
+    <ComponentType>KineticWeapon</ComponentType>
+    <ComponentType>PointDefense</ComponentType>
+    <ComponentType>Shields</ComponentType>
+	<FillerComponentType>KineticWeapon</FillerComponentType>
+    <AllRequiredMustFit>true</AllRequiredMustFit>
+  </ShipBlueprint> 
+
+
+  
+  
+ <!-- Scouts --> 
+
+   <!-- Scout; gets more sensors than standard scout -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedScoutBlueprint</InternalName>
+    <ShipHullType>Tiny</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>Sensor</RequiredComponentType>
+    <RequiredComponentType>LifeSupport</RequiredComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>Sensor</FillerComponentType>
+	<FillerComponentType>Sensor</FillerComponentType>
+	<FillerComponentType>LifeSupport</FillerComponentType>
+  </ShipBlueprint>
+ 
+  <!-- Proto hyperdrive scout; gets more sensors than standard -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedProtoTypeScoutBlueprint</InternalName>
+    <ShipHullType>Tiny</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>InterstellarDriveAugment</RequiredComponentType>
+    <RequiredComponentType>Sensor</RequiredComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <FillerComponentType>Sensor</FillerComponentType>
+  </ShipBlueprint>
+ 
+   <!-- SmallScout -->
+ 
+   <ShipBlueprint>
+    <InternalName>FedExplorerBlueprint</InternalName>
+    <ShipHullType>Small</ShipHullType>
+    <Role>Assault</Role>
+    <RequiredComponentType>Sensor</RequiredComponentType>
+    <RequiredComponentType>LifeSupport</RequiredComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>Sensor</FillerComponentType>
+  </ShipBlueprint>
+ 
+  
+  <!-- Civilian Ships -->
+  
+   <!-- Begin Blueprint -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedFreighterBlueprint</InternalName>
+    <ShipHullType>Cargo</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>CargoModule</RequiredComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>InterstellarDrive</FillerComponentType>
+  </ShipBlueprint>
+
+  <ShipBlueprint>
+    <InternalName>FedHeavyConstructorBlueprint</InternalName>
+    <ShipHullType>Cargo</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>ConstructionModule</RequiredComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <FillerComponentType>InterstellarDrive</FillerComponentType>
+	<FillerComponentType>LifeSupport</FillerComponentType>
+  </ShipBlueprint>  
+  
+  <ShipBlueprint>
+    <InternalName>FedLongRangetConstructorBlueprint</InternalName>
+    <ShipHullType>Cargo</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>ConstructionModule</RequiredComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>	
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <ComponentType>ConstructionModule</ComponentType>
+    <FillerComponentType>InterstellarDrive</FillerComponentType>
+	<FillerComponentType>LifeSupport</FillerComponentType>
+  </ShipBlueprint>  
+  
+	<!-- Medium ships -->   
+ 
+<ShipBlueprint>
+    <InternalName>FedIntrepidBlueprint</InternalName>
+    <ShipHullType>Medium</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>InterstellarDrive</RequiredComponentType>
+	<RequiredComponentType>BeamSupport2</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<ComponentType>RepairSupport</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>Armor</ComponentType>
+    <ComponentType>MovesSupport</ComponentType>
+    <ComponentType>Repair</ComponentType>
+	<ComponentType>ShieldProjection</ComponentType>
+    <ComponentType>PointProjection</ComponentType>
+    <ComponentType>Shields</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+  </ShipBlueprint>  
+	
+<ShipBlueprint>
+    <InternalName>FedDefiantBlueprint</InternalName>
+    <ShipHullType>Medium</ShipHullType>
+    <Role>Interceptor</Role>
+    <RequiredComponentType>SublightDrive</RequiredComponentType>
+	<RequiredComponentType>KineticWeaponEnhanced</RequiredComponentType>
+	<RequiredComponentType>KineticWeaponEnhanced</RequiredComponentType>
+	<RequiredComponentType>KineticAugment1</RequiredComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Armor</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>KineticWeapon</ComponentType>
+    <ComponentType>KineticWeapon</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>KineticWeapon</FillerComponentType>
+  </ShipBlueprint> 	
+  
+  <ShipBlueprint>
+    <InternalName>FedCerberusBlueprint</InternalName>
+    <ShipHullType>Medium</ShipHullType>
+    <Role>Guardian</Role>
+    <RequiredComponentType>SublightDrive</RequiredComponentType>
+	<RequiredComponentType>KineticWeapon</RequiredComponentType>
+	<RequiredComponentType>KineticWeapon</RequiredComponentType>
+	<RequiredComponentType>KineticSupport1</RequiredComponentType>
+	<ComponentType>TargetingSupport</ComponentType>
+	<ComponentType>KineticSupport2</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Armor</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>GuardianCarrierModule</ComponentType>
+    <FillerComponentType>KineticWeapon</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+	<FillerComponentType>KineticWeapon</FillerComponentType>
+  </ShipBlueprint> 	
+	
+	<!-- Large ships --> 
+ 
+  <!-- Begin Blueprint -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedCruiserBlueprint</InternalName>
+    <ShipHullType>Large</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>PointDefense</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>Shields</ComponentType>	
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>Shields</FillerComponentType>
+    <FillerComponentType>Armor</FillerComponentType>
+    <FillerComponentType>PointDefense</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint> 
+ 
+    <!-- Begin Blueprint -->
+	
+  <ShipBlueprint>
+    <InternalName>FedSovereignBlueprint</InternalName>
+    <ShipHullType>Large</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>PointDefense</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>BeamSupport2</RequiredComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>BeamAugment3</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+    <ComponentType>SublightDrive</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint>
+  
+    <!-- Begin Blueprint -->
+  
+  <ShipBlueprint>
+    <InternalName>FedCarrierBlueprint</InternalName>
+    <ShipHullType>Large</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>AssaultCarrierModule</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>PointDefense</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint>
+  
+	<!-- Huge ships -->   
+  
+    <!-- Begin Blueprint --> 
+	
+	
+  <ShipBlueprint>
+    <InternalName>OdysseyBlueprint</InternalName>
+    <ShipHullType>Huge</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>PointDefense</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>ShieldProjection</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+	<ComponentType>AssaultCarrierModule</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>Armor</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>PointDefense</ComponentType>
+    <ComponentType>Shields</ComponentType>	
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Armor</ComponentType>	
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>Shields</FillerComponentType>
+  </ShipBlueprint> 
+   
+   <!-- Begin Blueprint -->  
+   
+  <ShipBlueprint>
+    <InternalName>OdysseyPrototypeBlueprint</InternalName>
+    <ShipHullType>Huge</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>PointDefense</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+	<ComponentType>ShieldDegradation</ComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+	<ComponentType>RepairSupport</ComponentType>
+    <ComponentType>BeamSupport2</ComponentType>
+	<ComponentType>JammingSupport</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+	<ComponentType>AssaultCarrierModule</ComponentType>
+	<ComponentType>Repair</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>Armor</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>ShieldProjection</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>PointDefense</ComponentType>
+    <ComponentType>Shields</ComponentType>	
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Armor</ComponentType>	
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>Shields</FillerComponentType>
+	<FillerComponentType>Armor</FillerComponentType>
+	<FillerComponentType>PointDefense</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint> 
+ 
+   <!-- Begin Blueprint -->  
+   
+   <ShipBlueprint>
+    <InternalName>OdysseyTorpedoBlueprint</InternalName>
+    <ShipHullType>Huge</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>MissileWeapon</RequiredComponentType>
+	<RequiredComponentType>MissileWeapon</RequiredComponentType>
+	<RequiredComponentType>MissileWeapon</RequiredComponentType>
+	<RequiredComponentType>Shields</RequiredComponentType>
+	<RequiredComponentType>PointDefense</RequiredComponentType>
+	<RequiredComponentType>Armor</RequiredComponentType>
+	<ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>ShieldProjection</ComponentType>
+	<ComponentType>Sensor</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+	<ComponentType>AssaultCarrierModule</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>PointDefense</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>Armor</ComponentType>
+	<ComponentType>MissileWeapon</ComponentType>
+	<ComponentType>MissileWeapon</ComponentType>
+	<ComponentType>SublightDrive</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>PointDefense</ComponentType>
+    <ComponentType>Shields</ComponentType>	
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>Armor</ComponentType>	
+    <FillerComponentType>MissileWeapon</FillerComponentType>
+    <FillerComponentType>MissileWeapon</FillerComponentType>
+    <FillerComponentType>Shields</FillerComponentType>
+	<FillerComponentType>Armor</FillerComponentType>
+	<FillerComponentType>PointDefense</FillerComponentType>
+  </ShipBlueprint> 
+  
+</ShipBlueprintList>

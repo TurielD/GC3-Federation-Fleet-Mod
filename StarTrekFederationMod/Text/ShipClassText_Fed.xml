@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipClassText.xml -->
+ 
+
+
+<!-- Style names go here -->
+
+  <StringTable>
+    <Label>FederationShipStyleSet_Name</Label>
+    <String>Federation (Star Trek)</String>
+  </StringTable>
+
+
+<!-- Ship class names & descriptions go here -->
+
+ <!-- Fighters -->
+
+ <StringTable>
+    <Label>FederationAssaultFighter_Class_Name</Label>
+    <String>Defiant</String>
+  </StringTable>
+  
+<StringTable>
+    <Label>FederationAssaultFighter_Class_Dec</Label>
+    <String>A heavily armed assault fighter</String>
+  </StringTable>
+
+  
+  
+  <StringTable>
+    <Label>FederationDroneInterceptor_Class_Name</Label>
+    <String>Combat Shuttle</String>
+  </StringTable>
+  
+   <StringTable>
+    <Label>FederationDroneInterceptor_Class_Dec</Label>
+    <String>An automated beam shuttle set to defend its carrier</String>
+  </StringTable>
+  
+  
+  
+ <StringTable>
+    <Label>FederationGuardianFighter_Class_Name</Label>
+    <String>Perigrine Interceptor</String>
+  </StringTable>
+ 
+ <StringTable>
+    <Label>FederationGuardianFighter_Class_Dec</Label>
+    <String>An interceptor craft armed with cannons</String>
+  </StringTable>
+
+ <!-- Scouts -->
+
+  <StringTable>
+    <Label>FederationScout_Class_Name</Label>
+    <String>Scouting Shuttle</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>FederationScout_Dec</Label>
+    <String>Unarmed but quick, with excellent sensor range. It will lose every fight it gets into, so try not to get it into any.</String>
+  </StringTable>
+  
+  
+  
+ <StringTable>
+    <Label>ProtoTypeFederationScout_Class_Name</Label>
+    <String>Prototype Scouting Shuttle</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ProtoTypeFederationScout_Dec</Label>
+    <String>With the help of a Promethion augmented Warp Drive, this shuttle is faster than anything we have been able to build in the past.</String>
+  </StringTable>
+  
+  
+  <StringTable>
+    <Label>FederationStartingScout_Class_Name</Label>
+    <String>Shuttlecraft A</String>
+  </StringTable>
+  
+  <StringTable>
+    <Label>FederationStartingScout_Dec</Label>
+    <String>Unarmed but quick, with excellent sensor range. It will lose every fight it gets into, so try not to get it into any.</String>
+  </StringTable>
+ 
+ 
+  
+ <StringTable>
+    <Label>FederationStartingSurvey_Class_Name</Label>
+    <String>Enterprise NCC-170</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>FederationStartingSurvey_Dec</Label>
+    <String>A Constitution class exploration vessel on a 5-year mission. Suited for mapping the stars and conducting diplomatic missions involving green-skinned women.</String>
+  </StringTable>
+ 
+ 
+ 
+   <StringTable>
+    <Label>FederationSurvey_Class_Name</Label>
+    <String>Constitution</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationSurvey_Dec</Label>
+    <String>long range exploration vessel.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>ProtoTypeFederationSurvey_Class_Name</Label>
+    <String>D'Kyr-S</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>ProtoTypeFederationSurvey_Dec</Label>
+	<String>A vulcan design, the D'Kyr class assists the Federation fleet in surveying anomalies.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationExplorer_Class_Name</Label>
+    <String>Oberth</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationExplorer_Dec</Label>
+    <String>The Oberth class exploration vessel is not typically armed, but carries an extensive sensor suite. </String>
+  </StringTable>
+ 
+ 
+  <!-- Tiny Ships -->
+ 
+ 
+  <StringTable>
+    <Label>FederationSniper_Class_Name</Label>
+    <String>Peregrine Fighter</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationSniper_Dec</Label>
+    <String>Short range and kitted out for beam combat, the Peregrine harks back to the old days of atmospheric combat.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationBomber_Class_Name</Label>
+    <String>Torpedo Shuttle</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBomber_Dec</Label>
+    <String>A Federation shuttle refitted to carry missiles rather than its standard life-support and sensors.</String>
+  </StringTable>
+ 
+
+ 
+  <StringTable>
+    <Label>FederationGuardian_Class_Name</Label>
+    <String>Peregrine-C</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationGuardian_Dec</Label>
+    <String>This Perigrine fighter has been fitted with old-fashioned Kinetic weaponry</String>
+  </StringTable>
+ 
+   <StringTable>
+    <Label>ProtoTypeFederationGuardian_Class_Name</Label>
+    <String>Prototype Peregrine-C</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>ProtoTypeFederationGuardian_Dec</Label>
+    <String>Making use of the exotic yet relatively abundant Durantium, this advanced Peregrine packs a punch.</String>
+  </StringTable>
+ 
+
+ <!-- Small Ships -->
+ 
+ 
+  <StringTable>
+    <Label>FederationCutter_Class_Name</Label>
+    <String>Centaur</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCutter_Dec</Label>
+    <String>The Centaur class is a mid range ship set up for beam weapons and shields.</String>
+  </StringTable>
+ 
+   <StringTable>
+    <Label>FederationCutterL_Class_Name</Label>
+    <String>Centaur-LR</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCutterL_Dec</Label>
+    <String>Slower version of the Centaur, with longer range but weaker beam weapons. It's still earned its name.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationDefender_Class_Name</Label>
+    <String>D'Kyr</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDefender_Dec</Label>
+    <String>The Vulcan-designed D'Kyr class is fitted with missiles for long-range bombardment.</String>
+  </StringTable>
+ 
+   <StringTable>
+    <Label>FederationDefenderL_Class_Name</Label>
+    <String>Defender</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDefenderL_Dec</Label>
+    <String>Slower version of the D'Kyr, suited for long-range engagements. Nothing like exploding things from a distance.</String>
+  </StringTable>
+ 
+ 
+
+ 
+  <StringTable>
+    <Label>FederationGunboat_Class_Name</Label>
+    <String>Centaur-C</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationGunboat_Dec</Label>
+    <String>The Centaur-C variant is designed to use Kinetic weapons.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationGunboatL_Class_Name</Label>
+    <String>Centaur-CLR</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationGunboatL_Dec</Label>
+    <String>Slower version of the Centaur-C, which trades weapon power for range. Keep your distance and you'll be fine.</String>
+  </StringTable>
+ 
+ 
+<!-- Medium Ships -->
+
+ 
+  <StringTable>
+    <Label>FederationCorvette_Class_Name</Label>
+    <String>Constitution Refit</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCorvette_Dec</Label>
+    <String>The Constitution refit features enhanced power generation to support its deadly array of beams, along with a strengthened engineering hull and redesigned deflector array for increased endurance.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCorvetteL_Class_Name</Label>
+    <String>Constitution-L Refit</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCorvetteL_Dec</Label>
+    <String>Slower version of the Constitution refit, with technology to penetrate enemy shields. Very nasty.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCorvetteP_Class_Name</Label>
+    <String>Constitution-P Refit</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCorvetteP_Dec</Label>
+    <String>Shorter range Constitution refit, with longer range beam weapons. Meant for area defence.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationRanger_Class_Name</Label>
+    <String>Miranda</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationRanger_Dec</Label>
+    <String>The Miranda class patrol craft is a resilient ship, armed with torpedo tubes in its upper missile pod.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationRangerL_Class_Name</Label>
+    <String>Miranda-L</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationRangerL_Dec</Label>
+    <String>Slower version of the Miranda, with decoy systems which can confuse enemy point defenses.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationRangerP_Class_Name</Label>
+    <String>Miranda-P</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationRangerP_Dec</Label>
+    <String>Shorter range Miranda, with missiles that travel further. Perfect for harassing the enemy,</String>
+  </StringTable>
+ 
+ 
+ <!-- There is no frigate yet
+ 
+  <StringTable>
+    <Label>FederationFrigate_Class_Name</Label>
+    <String>Frigate</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFrigate_Dec</Label>
+    <String>Medium size kinetic-warfare ship. The larger the slug-thrower, the larger the slugs.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFrigateL_Class_Name</Label>
+    <String>Frigate</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFrigateL_Dec</Label>
+    <String>Slower version of the Frigate, equipped with armor-piercing rounds. There's nowhere to hide now.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFrigateP_Class_Name</Label>
+    <String>Frigate</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFrigateP_Dec</Label>
+    <String>Shorter range Frigate equipped with long range kinetic weapons. Never be outranged in a fight again.</String>
+  </StringTable>
+ 
+-->
+ 
+ 
+ <!-- Large Ships -->
+ 
+ 
+  <StringTable>
+    <Label>FederationCruiser_Class_Name</Label>
+    <String>Galaxy</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiser_Dec</Label>
+    <String>The Galaxy class starship is a large cruiser that can rely on its powerful beam arrays to keep the peace.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserL_Class_Name</Label>
+    <String>Galaxy</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserL_Dec</Label>
+    <String>Slower version of the Galaxy, trading weapon power for the capability of knocking out enemy shields entirely.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserP_Class_Name</Label>
+    <String>Galaxy-P</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserP_Dec</Label>
+    <String>Shorter range version of the Galaxy capable of partially penetrating enemy shields. Incredibly deadly.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserD_Class_Name</Label>
+    <String>Galaxy-D</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCruiserD_Dec</Label>
+    <String>Galaxy designed for long range combat. Keep it in the back and watch it rack up the kills.</String>
+  </StringTable>
+ 
+ 
+  <!-- there is no Destroyer yet
+  <StringTable>
+    <Label>FederationDestroyer_Class_Name</Label>
+    <String>Destroyer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyer_Dec</Label>
+    <String>Large missile-combat platform capable of spewing forth clouds of deadly missiles.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerL_Class_Name</Label>
+    <String>Destroyer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerL_Dec</Label>
+    <String>Slower version of the Destroyer, capable of crippling enemy point defenses at the cost of reduced damage.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerP_Class_Name</Label>
+    <String>Destroyer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerP_Dec</Label>
+    <String>Shorter range Destroyer with enhanced point defense penetrating technologies. Make every missle count.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerD_Class_Name</Label>
+    <String>Destroyer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDestroyerD_Dec</Label>
+    <String>Destroyer designed for long range combat. Very difficult to get close enough to hurt it.</String>
+  </StringTable>
+ -->
+ 
+ 
+  <StringTable>
+    <Label>FederationBattleship_Class_Name</Label>
+    <String>Akira</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleship_Dec</Label>
+    <String>The Akira Class is a front-line battle-cruiser armed with modern Kinetic weapons.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipL_Class_Name</Label>
+    <String>Akira-L</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipL_Dec</Label>
+    <String>Slower Akira designed to defeat enemy armor systems, at the cost of reduced overall damage.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipP_Class_Name</Label>
+    <String>Akira-P</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipP_Dec</Label>
+    <String>Shorter range Akira, equiped with armor-penetrating rounds.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipD_Class_Name</Label>
+    <String>Akira</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBattleshipD_Dec</Label>
+    <String>An Akira made for long-range combat. Space-based artillery, capable of raining hell from great distances.</String>
+  </StringTable>
+ 
+
+ 
+  <StringTable>
+    <Label>FederationCarrier_Class_Name</Label>
+    <String>Escorted Galaxy</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationCarrier_Dec</Label>
+    <String>This Galaxy class ship carries numerous battle-ready shuttles and fighters.</String>
+  </StringTable>
+ 
+ 
+ <!-- Huge Ships --> 
+ 
+ 
+  <StringTable>
+    <Label>FederationAvatar_Class_Name</Label>
+    <String>Odyssey</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatar_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; it is extremely well-armed.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarL_Class_Name</Label>
+    <String>Odyssey</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarL_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; it is extremely well-armed.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarP_Class_Name</Label>
+    <String>Odyssey</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarP_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; it is extremely well-armed.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarD_Class_Name</Label>
+    <String>Odyssey</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAvatarD_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; it is extremely well-armed.</String>
+  </StringTable>
+ 
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationFortress_Class_Name</Label>
+    <String>Odyssey-T</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortress_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the T variant carries missiles as its primary armament.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressL_Class_Name</Label>
+    <String>Odyssey-T</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressL_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the T variant carries missiles as its primary armament.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressP_Class_Name</Label>
+    <String>Odyssey-T</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressP_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the T variant carries missiles as its primary armament.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressD_Class_Name</Label>
+    <String>Odyssey-T</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFortressD_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the T variant carries missiles as its primary armament.</String>
+  </StringTable>
+ 
+ 
+ <!-- there is no fed kinetic huge ship.
+ 
+  <StringTable>
+    <Label>FederationDreadnought_Class_Name</Label>
+    <String>Dreadnought</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnought_Dec</Label>
+    <String>Gigantic vessel designed for kinetic warfare. Will lower property values anywhere it shows up.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtL_Class_Name</Label>
+    <String>Dreadnought</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtL_Dec</Label>
+    <String>Gigantic vessel designed for kinetic warfare. Will lower property values anywhere it shows up.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtP_Class_Name</Label>
+    <String>Dreadnought</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtP_Dec</Label>
+    <String>Gigantic vessel designed for kinetic warfare. Will lower property values anywhere it shows up.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtD_Class_Name</Label>
+    <String>Dreadnought</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDreadnoughtD_Dec</Label>
+    <String>Gigantic vessel designed for kinetic warfare. Will lower property values anywhere it shows up.</String>
+  </StringTable>
+ 
+ 
+ 
+ Also no Titan
+ 
+  <StringTable>
+    <Label>FederationTitan_Class_Name</Label>
+    <String>Titan</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationTitan_Dec</Label>
+    <String>Titanic vessel designed for all forms of warfare. Capable of killing you in many, many ways.</String>
+  </StringTable>
+ 
+ 
+ -->
+ 
+ 
+  <StringTable>
+    <Label>FederationAssaultCarrier_Class_Name</Label>
+    <String>Odyssey-C</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationAssaultCarrier_Dec</Label>
+    <String>The enormous Odyssey class is the pinnacle of Starfleet engineering; the C variant carries great numbers of smaller ships in to battle</String>
+  </StringTable>
+  
+  
+ <!-- civilian ships -->
+ 
+ 
+  <StringTable>
+    <Label>FederationColony_Class_Name</Label>
+    <String>Horizon Colonizer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationColony_Dec</Label>
+    <String>Large but fragile, the Horizon class is equipped to colonize distant planets.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationConstructor_Class_Name</Label>
+    <String>Rigel Contsructor</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationConstructor_Dec</Label>
+    <String>The Rigel class deep-space construction vessel builds and maintains Federation starbases.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationFreighter_Class_Name</Label>
+    <String>Antares Freighter</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationFreighter_Dec</Label>
+    <String>The Antares class freighter transports trade-goods to far-off worlds.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationTransport_Class_Name</Label>
+    <String>London Transport</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationTransport_Dec</Label>
+    <String>Large but fragile ship, packed with troops and vehicles, built to invade unfriendly planets.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationDroneCarrier_Class_Name</Label>
+    <String>Drone Carrier</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationDroneCarrier_Dec</Label>
+    <String>Carries fast and deadly Drone Interceptors, that seek out and destroy enemy support craft.</String>
+  </StringTable>
+ 
+ 
+ 
+  <StringTable>
+    <Label>FederationBeamSupport_Class_Name</Label>
+    <String>Galaxy-S</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationBeamSupport_Dec</Label>
+    <String>The Galaxy-S supports an entire fleet's Beam Weapons and Shield Systems to let the Federation triumph against the odds.</String>
+  </StringTable>
+ 
+ 
+ <!-- No support ships of this time [yet]
+  
+  <StringTable>
+    <Label>FederationMissileSupport_Class_Name</Label>
+    <String>Missile Support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationMissileSupport_Dec</Label>
+    <String>Can give your entire fleets Missile Weapons, and Point Defenses,  the boost they need win, even against the odds.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationKineticSupport_Class_Name</Label>
+    <String>Kinetic Support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationKineticSupport_Dec</Label>
+    <String>Can give your entire fleets Kinetic Weapons, and Armor,  the boost they need win, even against the odds.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationTacticalSupport_Class_Name</Label>
+    <String>Tactical Support</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationTacticalSupport_Dec</Label>
+    <String>Can give your help in with everything from Targeting to repair, Always worth having in any big fleet.</String>
+  </StringTable>
+  
+  -->
+ 
+ 
+  <StringTable>
+    <Label>FederationStartingColony_Class_Name</Label>
+    <String>Olympic</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FederationStartingColony_Dec</Label>
+    <String>Our first colony ship - ready to spread the Federation to distant worlds. Or maybe Mars.</String>
+  </StringTable>
+ 
+ <!-- Award Ships -->
+ 
+ 
+  <StringTable>
+    <Label>AwardFederationScout_Class_Name</Label>
+    <String>Scout</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationScout_Dec</Label>
+    <String>Unarmed but quick, with excellent sensor range. It will lose every fight it gets into, so try not to get it into any.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationCutter_Class_Name</Label>
+    <String>Battle Axe</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationCutter_Dec</Label>
+    <String>Mid range ship set up for beam weapons and shields. It's earned its name.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationDefender_Class_Name</Label>
+    <String>Defender</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationDefender_Dec</Label>
+    <String>Mid range missile boat, set up with point defences. Packs a punch.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationGunboat_Class_Name</Label>
+    <String>Gunboat</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationGunboat_Dec</Label>
+    <String>Mid range shootist, arrayed with kinetic weapons and armor. A mean, mean ship.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationSurvey_Class_Name</Label>
+    <String>Survey</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationSurvey_Dec</Label>
+    <String>long range vessel, suited for mapping the stars and running away from things.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationFrigate_Class_Name</Label>
+    <String>Frigate</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationFrigate_Dec</Label>
+    <String>Medium size kinetic-warfare ship. The larger the slug-thrower, the larger the slugs.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationOverlord_Class_Name</Label>
+    <String>Overlord</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationOverlord_Dec</Label>
+    <String>Large combat vessel, versatile in nature. For the indecisive who still wants a nice big stick.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationColony_Class_Name</Label>
+    <String>Colony Ship</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationColony_Dec</Label>
+    <String>Large but fragile ship, equipped to colonize distant planets.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationConstructor_Class_Name</Label>
+    <String>Constructor</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationConstructor_Dec</Label>
+    <String>Large but fragile ship capable of building starbases.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationFreighter_Class_Name</Label>
+    <String>Freighter</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationFreighter_Dec</Label>
+    <String>Large but fragile ship, Used to establish trade routes with distant worlds.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationTransport_Class_Name</Label>
+    <String>Transport</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>AwardFederationTransport_Dec</Label>
+    <String>Large but fragile ship, packed with troops and vehicles, built to invade unfriendly planets.</String>
+  </StringTable>
+  
+</StringTableList>
