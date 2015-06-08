@@ -309,6 +309,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <ComponentType>BeamWeapon</ComponentType>
 	<ComponentType>BeamWeapon</ComponentType>
     <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>Shields</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>PointDefense</ComponentType>	
     <FillerComponentType>BeamWeapon</FillerComponentType>
   </ShipBlueprint>
   
@@ -331,6 +335,11 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <FillerComponentType>BeamWeapon</FillerComponentType>
     <FillerComponentType>LifeSupport</FillerComponentType>
 	<FillerComponentType>BeamWeapon</FillerComponentType>
+	<FillerComponentType>Shields</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>PointDefense</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>Armor</FillerComponentType>
   </ShipBlueprint>
   
 	<!-- Huge ships -->   
@@ -350,7 +359,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<RequiredComponentType>PointDefense</RequiredComponentType>
 	<RequiredComponentType>Armor</RequiredComponentType>
 	<ComponentType>InterstellarDrive</ComponentType>
-	<ComponentType>ShieldProjection</ComponentType>
 	<ComponentType>Sensor</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
 	<ComponentType>AssaultCarrierModule</ComponentType>
@@ -374,6 +382,15 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <FillerComponentType>BeamWeapon</FillerComponentType>
     <FillerComponentType>BeamWeapon</FillerComponentType>
     <FillerComponentType>Shields</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>PointDefense</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>Shields</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+    <FillerComponentType>Armor</FillerComponentType>
   </ShipBlueprint> 
    
    <!-- Begin Blueprint -->  
@@ -396,7 +413,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <ComponentType>BeamSupport2</ComponentType>
 	<ComponentType>JammingSupport</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
-	<ComponentType>AssaultCarrierModule</ComponentType>
+	<ComponentType>EscortCarrierModule</ComponentType>
 	<ComponentType>Repair</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
@@ -409,7 +426,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<ComponentType>ShieldProjection</ComponentType>
 	<ComponentType>BeamWeapon</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
-    <ComponentType>AssaultCarrierModule</ComponentType>
+    <ComponentType>EscortCarrierModule</ComponentType>
     <ComponentType>Shields</ComponentType>
     <ComponentType>Armor</ComponentType>
     <ComponentType>PointDefense</ComponentType>
