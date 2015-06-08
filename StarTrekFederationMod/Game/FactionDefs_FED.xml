@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FactionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- FactionDefs.xml -->
+  
+    <Faction>
+        <InternalName>FACTION_Federation</InternalName>
+        <DisplayName>FACTION_Federation_Name</DisplayName>
+        <DisplayNameShort>FACTION_Federation_ShortName</DisplayNameShort>
+        <LeaderName>FACTION_Federation_LeaderName</LeaderName>
+        <Description>FACTION_Federation_Dec</Description>
+        <LeaderDescription>FACTION_Federation_LeaderDec</LeaderDescription>
+        <RaceType>Major</RaceType>
+        <PersonalityTraits>Peaceful</PersonalityTraits>
+        <PersonalityTraits>Scientific</PersonalityTraits>
+        <PersonalityTraits>Diplomatic</PersonalityTraits>
+        <PersonalityTraits>Cultural</PersonalityTraits>		
+        <RaceTraits>StarfaringAbility</RaceTraits>
+        <RaceTraits>IntuitiveAbility</RaceTraits>
+        <RaceTraits>Clever1</RaceTraits>
+        <RaceTraits>Influential2</RaceTraits>
+		<RaceTraits>Economical3</RaceTraits>
+        <RaceTraits>Content3</RaceTraits>
+        <RaceTraits>Handy3</RaceTraits>
+        <RaceTraits>Dense2</RaceTraits>
+        <RaceTraits>Militant3</RaceTraits>
+        <RaceTraits>Popular2</RaceTraits>
+		<RaceTraits>Farmers2</RaceTraits>
+        <RaceTraits>Brutal4</RaceTraits>
+        <RaceTraits>Courageous2</RaceTraits>
+		<RaceTraits>Accurate2</RaceTraits>
+        <RaceTraits>Agile2</RaceTraits>
+        <RaceTraits>Resilient4</RaceTraits>
+        <RaceTraits>Adventuresome2</RaceTraits>
+        <RaceTraits>Likeable2</RaceTraits>
+        <RaceTraits>Observant2</RaceTraits>
+        <RaceTraits>Fast2</RaceTraits>		
+        <RequiresHomeworld>true</RequiresHomeworld>
+        <HomeStarSystem>FedSystem</HomeStarSystem>
+        <StartingShips>ColonyStaticBlueprint</StartingShips>
+        <StartingShips>SurveyStaticBlueprint</StartingShips>
+        <StartingShips>ScoutStaticBlueprint</StartingShips>
+        <TechTree>Terran_Tree</TechTree>
+        <ShipCallsign>FACTION_Federation_Callsign</ShipCallsign>
+        <LogoImage>Fed1.png</LogoImage>
+        <LeaderThumbnail>Archer.png</LeaderThumbnail>
+        <LeaderImageFG>ArcherFG.png</LeaderImageFG>
+        <LeaderImageBG>FedCouncil.png</LeaderImageBG>
+        <NewsRobotMovie_Approach>Terran_ResearchAdviser_Approach.bk2</NewsRobotMovie_Approach>
+        <NewsRobotMovie_Idle>Terran_ResearchAdviser_Idle.bk2</NewsRobotMovie_Idle>
+        <StartupImage>StartGameTerran.png</StartupImage>
+        <StartupTitle>FACTION_Federation_StartupTitle</StartupTitle>
+        <StartupDescription>FACTION_Federation_StartupDescription</StartupDescription>
+        <StartupTraitsDescription>FACTION_Federation_StartupTraitsDescription</StartupTraitsDescription>
+        <ConquestMovie>MilVic_Terran.bk2</ConquestMovie>
+        <MapColorDef>GreyMapColors</MapColorDef>
+        <UIColorDef>TerranUIColors</UIColorDef>
+        <FactionMusicDef>TerranMusic</FactionMusicDef>
+        <Material1>GC3_Ship_Material_01</Material1>
+        <Material2>GC3_Ship_Material_01</Material2>
+        <Surface1>GC3_Default_Surface_16</Surface1>
+        <Surface2>GC3_Default_Surface_14</Surface2>
+        <Appearance>GC3_Federation_Appearance</Appearance>
+        <ShipStyleSet>FederationShipStyleSet</ShipStyleSet>
+        <CreditsInit>5000</CreditsInit>
+        <WarEnduranceInit>90</WarEnduranceInit>
+        <DefaultResistance>0.25</DefaultResistance>
+        <InfluenceTallyInit>10</InfluenceTallyInit>
+        <StartingColonyPopulation>10</StartingColonyPopulation>
+        <AICategoryWeight>
+          <Military>15</Military>
+          <Growth>10</Growth>
+          <Tech>20</Tech>
+          <Diplomacy>20</Diplomacy>
+          <Expansion>15</Expansion>
+          <Wealth>5</Wealth>
+          <Influence>10</Influence>
+          <Fortification>10</Fortification>
+		  <Logistics>5</Logistics>
+        </AICategoryWeight>
+    </Faction>
+  
+</FactionList>

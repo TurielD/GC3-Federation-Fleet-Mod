@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- FactionText.xml -->
+ 
+<!-- Tech Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>FACTION_Federation_Name</Label>
+    <String>The United Federation of Planets</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_ShortName</Label>
+    <String>The Federation</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_LeaderName</Label>
+    <String>Jonathan Archer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_Dec</Label>
+    <String>The humans of the Federation learned the secrets of Warp drive, leading to contact with the Vulcans with whom they formed the Federation. Though committed to diplomacy, the Federation fields powerful starships.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_LeaderDec</Label>
+    <String>The Federation is a peace-loving alliance of like-minded species, primarily humans.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_Callsign</Label>
+    <String>U.S.S.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_StartupTitle</Label>
+    <String>To boldly go...</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_StartupDescription</Label>
+    <String>The Federation is an interstellar federal republic composed of planetary sovereignties of diverse nature. Humans were the driving force in forming the Federation, and tend to hold many of the primary governmental posts. The Federation is represented in space by the crews of Starfleet vessels; while primarily concerned with exploration, diplomacy, and occasionally trade with other cultures, Starfleet ships are well equipped for battle thanks to the Federation's Technological Expertise.
+</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_StartupTraitsDescription</Label>
+    <String>The Federation invests heavily in science, and many breakthroughs in both civilian and military technology are made thanks to multi-species efforts. Citizens of the Federation enjoy the comfort which great new technology brings them, but are not as productive as more focussed or militaristic factions, and may indeed be somewhat more demanding.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_Federation_StartupTraitsDescription</Label>
+    <String>The Federation invests heavily in science, and many breakthroughs in both civilian and military technology are made thanks to multi-species efforts. Citizens of the Federation enjoy the comfort which great new technology brings them, but are not as productive as more focussed or militaristic factions, and may indeed be somewhat more demanding.</String>
+  </StringTable>
+ 
+ 
+  <StringTable>
+    <Label>FedSystem_Name</Label>
+    <String>Sector 001</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FedSystem_Dec</Label>
+    <String>The Federation solar system containing a class 12 and a class 4 world.</String>
+  </StringTable>
+ 
+</StringTableList>
