@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarSystemList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarSystemDefs.xml -->
+ 
+  <!-- System Group -->
+ 
+  <StarSystemGroup>
+  
+    <InternalName>FactionStart2</InternalName> 
+	
+    <StarSystem>
+      <InternalName>FedSystem</InternalName>
+      <DisplayName>FedSystem_Name</DisplayName>
+      <Description>FedSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>SolStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetCA6</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetFed</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetVulcan</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>0</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetJ</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAndor</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+ 
+ </StarSystemGroup>
+ 
+</StarSystemList>

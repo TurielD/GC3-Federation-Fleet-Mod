@@ -22,7 +22,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <RaceTraits>Clever1</RaceTraits>
         <RaceTraits>Influential2</RaceTraits>
 		<RaceTraits>Economical3</RaceTraits>
-        <RaceTraits>content3</RaceTraits>
+        <RaceTraits>Content3</RaceTraits>
         <RaceTraits>Handy3</RaceTraits>
         <RaceTraits>Dense2</RaceTraits>
         <RaceTraits>Militant3</RaceTraits>
@@ -30,21 +30,21 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>Farmers2</RaceTraits>
         <RaceTraits>Brutal4</RaceTraits>
         <RaceTraits>Courageous2</RaceTraits>
+		<RaceTraits>Accurate2</RaceTraits>
         <RaceTraits>Agile2</RaceTraits>
-        <RaceTraits>Reslient4</RaceTraits>
+        <RaceTraits>Resilient4</RaceTraits>
         <RaceTraits>Adventuresome2</RaceTraits>
         <RaceTraits>Likeable2</RaceTraits>
         <RaceTraits>Observant2</RaceTraits>
         <RaceTraits>Fast2</RaceTraits>		
         <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>ArbSystem</HomeStarSystem>
-		<HomePlanetName>Sector 001</HomePlanetName>
+        <HomeStarSystem>FedSystem</HomeStarSystem>
         <StartingShips>ColonyStaticBlueprint</StartingShips>
         <StartingShips>SurveyStaticBlueprint</StartingShips>
         <StartingShips>ScoutStaticBlueprint</StartingShips>
         <TechTree>Terran_Tree</TechTree>
         <ShipCallsign>FACTION_Federation_Callsign</ShipCallsign>
-        <LogoImage>08 - orG24mM.png</LogoImage>
+        <LogoImage>Fed1.png</LogoImage>
         <LeaderThumbnail>Archer.png</LeaderThumbnail>
         <LeaderImageFG>ArcherFG.png</LeaderImageFG>
         <LeaderImageBG>FedCouncil.png</LeaderImageBG>
@@ -72,7 +72,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <AICategoryWeight>
           <Military>15</Military>
           <Growth>10</Growth>
-          <Tech>25</Tech>
+          <Tech>20</Tech>
           <Diplomacy>20</Diplomacy>
           <Expansion>15</Expansion>
           <Wealth>5</Wealth>

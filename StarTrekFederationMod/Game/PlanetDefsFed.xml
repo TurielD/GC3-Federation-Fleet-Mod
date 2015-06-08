@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
+
+	<Planet>
+		<InternalName>PlanetCA6</InternalName>
+		<DisplayName>Ceti Alpha 6</DisplayName>
+		<PlanetType>Dead</PlanetType>		
+		<PlanetClass>0</PlanetClass>		
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetFed</InternalName>
+		<DisplayName>Federation Prime</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>12</PlanetClass>		
+		<ArtDefine>EarthArt</ArtDefine>
+	</Planet>
+
+	
+	<Planet>
+		<InternalName>PlanetVulcan</InternalName>
+		<DisplayName>Vulcan</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>4</PlanetClass>
+		<DisableColonizationEvent>true</DisableColonizationEvent>
+		<ArtDefine>MarsArt</ArtDefine>
+	</Planet>
+	
+	<Planet>
+		<InternalName>PlanetJ</InternalName>
+		<DisplayName>Class J</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+
+	<Planet>
+		<InternalName>PlanetAndor</InternalName>
+		<DisplayName>Andor</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>AltariaArt</ArtDefine>
+	</Planet>
+
+ 
+</PlanetList>

@@ -53,6 +53,20 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <String>The Federation invests heavily in science, and many breakthroughs in both civilian and military technology are made thanks to multi-species efforts. Citizens of the Federation enjoy the comfort which great new technology brings them, but are not as productive as more focussed or militaristic factions, and may indeed be somewhat more demanding.</String>
   </StringTable>
  
-
+  <StringTable>
+    <Label>FACTION_Federation_StartupTraitsDescription</Label>
+    <String>The Federation invests heavily in science, and many breakthroughs in both civilian and military technology are made thanks to multi-species efforts. Citizens of the Federation enjoy the comfort which great new technology brings them, but are not as productive as more focussed or militaristic factions, and may indeed be somewhat more demanding.</String>
+  </StringTable>
+ 
+ 
+  <StringTable>
+    <Label>FedSystem_Name</Label>
+    <String>Sector 001</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FedSystem_Dec</Label>
+    <String>The Federation solar system containing a class 12 and a class 4 world.</String>
+  </StringTable>
  
 </StringTableList>
