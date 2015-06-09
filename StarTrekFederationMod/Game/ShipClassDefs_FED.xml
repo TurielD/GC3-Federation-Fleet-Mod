@@ -915,7 +915,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <BlueprintDef>TitanBlueprint</BlueprintDef>
   </ShipClass> -->
  
-  <!-- Begin Ship -->
+  <!-- Assault Carrier removed for now - no good blueprint for it yet
  
   <ShipClass>
     <InternalName>FederationAssaultCarrier</InternalName>
@@ -928,7 +928,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <AIShipClass>Assault</AIShipClass>
     <StrategicIcon>Carrier</StrategicIcon>
     <BlueprintDef>AssaultCarrierBlueprint</BlueprintDef>
-  </ShipClass>
+  </ShipClass> -->
  
  
  <!-- Civilian Ships -->
