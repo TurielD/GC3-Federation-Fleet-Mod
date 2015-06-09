@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ComponentClassList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ComponentClassDefs.xsd">
+
+  <ComponentClass>
+    <UniqueID>InterstellarDrive</UniqueID>
+    <PrimaryStat>MovesCap</PrimaryStat>
+  </ComponentClass>
+	
+	  <ComponentClass>
+    <UniqueID>InterstellarDriveAugment</UniqueID>
+    <PrimaryStat>MovesCap</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>SublightDrive</UniqueID>
+    <PrimaryStat>TacticalSpeed</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>
+    <UniqueID>LifeSupport</UniqueID>
+    <PrimaryStat>ShipRange</PrimaryStat>
+  </ComponentClass>
+	
+	  <ComponentClass>
+    <UniqueID>HitPointAugment</UniqueID>
+			<PrimaryStat>HitPointsCap</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>  
+    <UniqueID>Sensor</UniqueID>
+    <PrimaryStat>SensorRange</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>Targeting</UniqueID>
+    <PrimaryStat>Accuracy</PrimaryStat>
+   </ComponentClass>
+    
+  <ComponentClass>  
+    <UniqueID>Jamming</UniqueID>
+    <PrimaryStat>Jamming</PrimaryStat>
+  </ComponentClass>
+  
+  <!--<ComponentClass>  
+    <UniqueID>Cloaking</UniqueID>
+    <PrimaryStat>CanCloak</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>CloakDetection</UniqueID>
+    <PrimaryStat>CanDetectCloak</PrimaryStat>
+  </ComponentClass>-->
+  
+  <ComponentClass>  
+    <UniqueID>Repair</UniqueID>
+    <PrimaryStat>TacticalRepair</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>Armor</UniqueID>
+    <PrimaryStat>ArmorRating</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>Shields</UniqueID>
+    <PrimaryStat>ShieldStrength</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>PointDefense</UniqueID>
+    <PrimaryStat>PointDefense</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>BeamWeapon</UniqueID>
+    <PrimaryStat>BeamAttack</PrimaryStat>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>BeamWeaponEnhanced</UniqueID>
+		<PrimaryStat>BeamAttack</PrimaryStat>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>MissileWeapon</UniqueID>
+    <PrimaryStat>MissileAttack</PrimaryStat>
+  </ComponentClass>
+	
+	  <ComponentClass>  
+    <UniqueID>MissileWeaponEnhanced</UniqueID>
+    <PrimaryStat>MissileAttack</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>KineticWeapon</UniqueID>
+    <PrimaryStat>KineticAttack</PrimaryStat>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>KineticWeaponEnhanced</UniqueID>
+		<PrimaryStat>KineticAttack</PrimaryStat>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>BeamAugment1</UniqueID>
+    <PrimaryStat>BeamCooldown</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamAugment2</UniqueID>
+    <PrimaryStat>BeamRange</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>BeamAugment3</UniqueID>
+    <PrimaryStat>ShieldDamageWeapon</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>MissileAugment1</UniqueID>
+    <PrimaryStat>MissileCooldown</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileAugment2</UniqueID>
+    <PrimaryStat>MissileRange</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>MissileAugment3</UniqueID>
+    <PrimaryStat>PointDamageWeapon</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>KineticAugment1</UniqueID>
+    <PrimaryStat>KineticCooldown</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticAugment2</UniqueID>
+    <PrimaryStat>KineticRange</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>KineticAugment3</UniqueID>
+    <PrimaryStat>ArmorDamageWeapon</PrimaryStat>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>InterceptorCarrierModule</UniqueID>
+		<PrimaryStat>InterceptorFightersCap</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>GuardianCarrierModule</UniqueID>
+		<PrimaryStat>GuardianFightersCap</PrimaryStat>
+	</ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>AssaultCarrierModule</UniqueID>
+    <PrimaryStat>AssaultFightersCap</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>
+    <UniqueID>EscortCarrierModule</UniqueID>
+    <PrimaryStat>EscortFightersCap</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>ColonyModule</UniqueID>
+    <PrimaryStat>PopulationCap</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>ConstructionModule</UniqueID>
+    <PrimaryStat>ModuleConstructionPointsCap</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>CargoModule</UniqueID>
+    <PrimaryStat>CanCreateTradeRoute</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>TransportModule</UniqueID>
+    <PrimaryStat>PopulationCap</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>SurveyModuleEnhanced</UniqueID>
+    <PrimaryStat>CanSurvey</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>SurveyModule</UniqueID>
+    <PrimaryStat>CanSurvey</PrimaryStat>
+  </ComponentClass>
+  
+  <ComponentClass>  
+    <UniqueID>RecoveryModule</UniqueID>
+    <PrimaryStat>CanSalvage</PrimaryStat>
+  </ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>ShieldProjection</UniqueID>
+		<PrimaryStat>ShieldStrength</PrimaryStat>
+	</ComponentClass>
+
+	<ComponentClass>
+		<UniqueID>ShieldSupport</UniqueID>
+		<PrimaryStat>ShieldStrength</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>ShieldDegradation</UniqueID>
+		<PrimaryStat>ShieldStrength</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>PointProjection</UniqueID>
+		<PrimaryStat>PointDefense</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>PointSupport</UniqueID>
+		<PrimaryStat>PointDefense</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>PointDegradation</UniqueID>
+		<PrimaryStat>PointDefense</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>ArmorSupport</UniqueID>
+		<PrimaryStat>ArmorRating</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>ArmorDegradation</UniqueID>
+		<PrimaryStat>ArmorRating</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>RepairSupport</UniqueID>
+		<PrimaryStat>TacticalRepair</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>BeamSupport1</UniqueID>
+		<PrimaryStat>BeamCooldown</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>BeamSupport2</UniqueID>
+		<PrimaryStat>BeamAttack</PrimaryStat>
+	</ComponentClass>
+	
+
+	
+	<ComponentClass>
+		<UniqueID>MissileSupport1</UniqueID>
+		<PrimaryStat>MissileAccuracy</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>MissileSupport2</UniqueID>
+		<PrimaryStat>MissileAttack</PrimaryStat>
+	</ComponentClass>
+
+	
+	<ComponentClass>
+		<UniqueID>KineticSupport1</UniqueID>
+		<PrimaryStat>KineticAttack</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>KineticSupport2</UniqueID>
+		<PrimaryStat>KineticRange</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>TargetingSupport</UniqueID>
+		<PrimaryStat>Accuracy</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>JammingSupport</UniqueID>
+		<PrimaryStat>Jamming</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>SublightSupport</UniqueID>
+		<PrimaryStat>TacticalSpeed</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>SublightSuppression</UniqueID>
+		<PrimaryStat>TacticalSpeed</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>MovesSupport</UniqueID>
+		<PrimaryStat>MovesCap</PrimaryStat>
+	</ComponentClass>
+	
+	<ComponentClass>
+		<UniqueID>RangeSupport</UniqueID>
+		<PrimaryStat>ShipRange</PrimaryStat>
+	</ComponentClass>
+	
+		<ComponentClass>
+		<UniqueID>HitPointSupport</UniqueID>
+		<PrimaryStat>HitPointsCap</PrimaryStat>
+	</ComponentClass>
+
+</ComponentClassList>

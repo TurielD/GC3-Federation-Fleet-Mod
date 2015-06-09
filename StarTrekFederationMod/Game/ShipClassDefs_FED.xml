@@ -126,7 +126,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <ShipDesign>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E</ShipDesign>
     <AIShipClass>Survey</AIShipClass>
     <StrategicIcon>SurveyShip</StrategicIcon>
-    <BlueprintDef>SurveyBlueprint</BlueprintDef>
+    <BlueprintDef>FedSurveyBlueprint</BlueprintDef>
   </ShipClass>
 
   
@@ -1003,7 +1003,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <ShipDesign>London Template_E2895A3F9E0548B4A637906047B4667A</ShipDesign>
     <AIShipClass>Transport</AIShipClass>
     <StrategicIcon>Transport</StrategicIcon>
-    <BlueprintDef>TransportBlueprint</BlueprintDef>
+    <BlueprintDef>FedTransportBlueprint</BlueprintDef>
   </ShipClass>
  
   <!-- Begin Ship -->
