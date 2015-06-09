@@ -205,7 +205,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCutterL_Dec</Label>
-    <String>Slower version of the Centaur, with longer range but weaker beam weapons. It's still earned its name.</String>
+    <String>Slower version of the Centaur, with faster firing but somewhat weaker beam weapons.</String>
   </StringTable>
  
  
@@ -250,7 +250,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationGunboatL_Dec</Label>
-    <String>Slower version of the Centaur-C, which trades weapon power for range. Keep your distance and you'll be fine.</String>
+    <String>Slower version of the Centaur-C which has rapid-fire cannons.</String>
   </StringTable>
  
  
@@ -274,7 +274,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCorvetteL_Dec</Label>
-    <String>Slower version of the Constitution refit, with technology to penetrate enemy shields. Very nasty.</String>
+    <String>Slower version of the Constitution refit, with technology to improve its rate of fire - at the cost of raw power.</String>
   </StringTable>
  
   <StringTable>
@@ -306,7 +306,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationRangerL_Dec</Label>
-    <String>Slower version of the Miranda, with decoy systems which can confuse enemy point defenses.</String>
+    <String>Enhanced version of the Miranda, with rapid-firing missiles.</String>
   </StringTable>
  
   <StringTable>
@@ -498,7 +498,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBattleshipL_Dec</Label>
-    <String>Slower Akira designed to defeat enemy armor systems, at the cost of reduced overall damage.</String>
+    <String>Slower Akira designed to spew fire at an extremely fast rate.</String>
   </StringTable>
  
   <StringTable>
@@ -508,7 +508,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBattleshipP_Dec</Label>
-    <String>Shorter range Akira, equiped with armor-penetrating rounds.</String>
+    <String>Shorter range Akira, equiped with high-velocity rounds for increased range.</String>
   </StringTable>
  
   <StringTable>
