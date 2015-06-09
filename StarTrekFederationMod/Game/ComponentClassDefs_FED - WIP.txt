@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ComponentClassList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ComponentClassDefs.xsd">
+
+  
+  <ComponentClass>  
+    <UniqueID>BeamWeaponEarly</UniqueID>
+    <PrimaryStat>BeamAttack</PrimaryStat>
+  </ComponentClass>
+
+  <ComponentClass>  
+    <UniqueID>BeamWeaponLate</UniqueID>
+    <PrimaryStat>BeamAttack</PrimaryStat>
+  </ComponentClass>
+  
+
+  <ComponentClass>  
+    <UniqueID>PulsePhaserWeapon</UniqueID>
+    <PrimaryStat>KineticAttack</PrimaryStat>
+  </ComponentClass>
+	
+
+</ComponentClassList>
