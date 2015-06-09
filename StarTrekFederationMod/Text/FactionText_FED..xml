@@ -45,13 +45,9 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>FACTION_Federation_StartupDescription</Label>
     <String>The Federation is an interstellar federal republic composed of planetary sovereignties of diverse nature. Humans were the driving force in forming the Federation, and tend to hold many of the primary governmental posts. The Federation is represented in space by the crews of Starfleet vessels; while primarily concerned with exploration, diplomacy, and occasionally trade with other cultures, Starfleet ships are well equipped for battle thanks to the Federation's Technological Expertise.
-</String>
+	</String>
   </StringTable>
  
-  <StringTable>
-    <Label>FACTION_Federation_StartupTraitsDescription</Label>
-    <String>The Federation invests heavily in science, and many breakthroughs in both civilian and military technology are made thanks to multi-species efforts. Citizens of the Federation enjoy the comfort which great new technology brings them, but are not as productive as more focussed or militaristic factions, and may indeed be somewhat more demanding.</String>
-  </StringTable>
  
   <StringTable>
     <Label>FACTION_Federation_StartupTraitsDescription</Label>

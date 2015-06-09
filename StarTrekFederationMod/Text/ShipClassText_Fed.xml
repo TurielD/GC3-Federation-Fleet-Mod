@@ -200,7 +200,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
    <StringTable>
     <Label>FederationCutterL_Class_Name</Label>
-    <String>Centaur-LR</String>
+    <String>Centaur</String>
   </StringTable>
  
   <StringTable>
@@ -245,7 +245,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationGunboatL_Class_Name</Label>
-    <String>Centaur-CLR</String>
+    <String>Centaur-C</String>
   </StringTable>
  
   <StringTable>
@@ -269,7 +269,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCorvetteL_Class_Name</Label>
-    <String>Constitution-L Refit</String>
+    <String>Constitution Refit</String>
   </StringTable>
  
   <StringTable>
@@ -279,7 +279,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCorvetteP_Class_Name</Label>
-    <String>Constitution-P Refit</String>
+    <String>Constitution Refit</String>
   </StringTable>
  
   <StringTable>
@@ -301,7 +301,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationRangerL_Class_Name</Label>
-    <String>Miranda-L</String>
+    <String>Miranda</String>
   </StringTable>
  
   <StringTable>
@@ -311,7 +311,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationRangerP_Class_Name</Label>
-    <String>Miranda-P</String>
+    <String>Miranda</String>
   </StringTable>
  
   <StringTable>
@@ -410,7 +410,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCruiserP_Class_Name</Label>
-    <String>Galaxy-P</String>
+    <String>Galaxy</String>
   </StringTable>
  
   <StringTable>
@@ -420,7 +420,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationCruiserD_Class_Name</Label>
-    <String>Galaxy-D</String>
+    <String>Galaxy</String>
   </StringTable>
  
   <StringTable>
@@ -493,7 +493,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBattleshipL_Class_Name</Label>
-    <String>Akira-L</String>
+    <String>Akira</String>
   </StringTable>
  
   <StringTable>
@@ -503,7 +503,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBattleshipP_Class_Name</Label>
-    <String>Akira-P</String>
+    <String>Akira</String>
   </StringTable>
  
   <StringTable>

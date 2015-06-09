@@ -136,6 +136,31 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
   </ShipBlueprint>
  
   
+    <!-- Survey (constitution) -->
+
+  <ShipBlueprint>
+    <InternalName>FedSurveyBlueprint</InternalName>
+    <ShipHullType>Medium</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>SurveyModule</RequiredComponentType>
+    <RequiredComponentType>LifeSupport</RequiredComponentType>
+	<RequiredComponentType>BeamWeapon</RequiredComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+	<ComponentType>Shields</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+	<ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+	<FillerComponentType>InterstellarDrive</FillerComponentType>
+	<FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint>
+  
+  
   <!-- Civilian Ships -->
   
    <!-- Begin Blueprint -->
@@ -185,6 +210,28 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <FillerComponentType>InterstellarDrive</FillerComponentType>
 	<FillerComponentType>LifeSupport</FillerComponentType>
   </ShipBlueprint>  
+  
+  
+   <!-- Begin Blueprint -->
+ 
+  <ShipBlueprint>
+    <InternalName>FedTransportBlueprint</InternalName>
+    <ShipHullType>Cargo</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>TransportModule</RequiredComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>TransportModule</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
+  </ShipBlueprint>
+
+  
   
 	<!-- Medium ships -->   
  
@@ -413,7 +460,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <ComponentType>BeamSupport2</ComponentType>
 	<ComponentType>JammingSupport</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
-	<ComponentType>EscortCarrierModule</ComponentType>
+	<ComponentType>AssaultCarrierModule</ComponentType>
 	<ComponentType>Repair</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
@@ -426,7 +473,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<ComponentType>ShieldProjection</ComponentType>
 	<ComponentType>BeamWeapon</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
-    <ComponentType>EscortCarrierModule</ComponentType>
+    <ComponentType>AssaultCarrierModule</ComponentType>
     <ComponentType>Shields</ComponentType>
     <ComponentType>Armor</ComponentType>
     <ComponentType>PointDefense</ComponentType>
@@ -438,7 +485,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <FillerComponentType>Shields</FillerComponentType>
 	<FillerComponentType>Armor</FillerComponentType>
 	<FillerComponentType>PointDefense</FillerComponentType>
-	<FillerComponentType>BeamWeapon</FillerComponentType>
+	<FillerComponentType>AssaultCarrierModule</FillerComponentType>
     <FillerComponentType>BeamWeapon</FillerComponentType>
   </ShipBlueprint> 
  
@@ -455,7 +502,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<RequiredComponentType>PointDefense</RequiredComponentType>
 	<RequiredComponentType>Armor</RequiredComponentType>
 	<ComponentType>InterstellarDrive</ComponentType>
-	<ComponentType>ShieldProjection</ComponentType>
 	<ComponentType>Sensor</ComponentType>
 	<ComponentType>SublightDrive</ComponentType>
 	<ComponentType>AssaultCarrierModule</ComponentType>
