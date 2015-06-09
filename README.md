@@ -27,10 +27,15 @@ http://forums.galciv3.com/465270/page/1/
 
 **Changelog**:
 
-vA2
-Added federation faction (with images courtesy of 00zim00), which will automatically use the correct templates and colours.
-Fixed missing descriptions
+vB1
+* Added federation faction (with images courtesy of 00zim00), which will automatically use the correct templates, colours and custom solarsystem.
+* Fixed Constitution class model not appearing properly in ShipStyle selector
+* Fixed missing ships in ship-designer (Defiant)
+* Fixed missing augmented designs for AI use of faction
+* Fixed various missing descriptions
+* Fixed Fed faction colours
+* Altered some blueprints to improve designs, particularly from the mid-game on
 
 
 vA1 
-Initial release
+* Initial release
