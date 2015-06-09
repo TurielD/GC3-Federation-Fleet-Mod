@@ -31,8 +31,8 @@ xsi:noNamespaceSchemaLocation="../Schema/GC3AppearanceDefs.xsd">
 		<DisplayIcon>Terran_Appearance_Icon.png</DisplayIcon>
 		<DiffuseGradientRow1>0</DiffuseGradientRow1>
 		<DiffuseGradientRow2>0</DiffuseGradientRow2>
-		<LightGradientRow1>1</LightGradientRow1>
-		<LightGradientRow2>0</LightGradientRow2>
+		<LightGradientRow1>0</LightGradientRow1>
+		<LightGradientRow2>1</LightGradientRow2>
 		<LightGradientRow3>250</LightGradientRow3>
 		<SurfaceScale1>170.0</SurfaceScale1>
 		<SurfaceWeight1>.92</SurfaceWeight1>
@@ -50,10 +50,10 @@ xsi:noNamespaceSchemaLocation="../Schema/GC3AppearanceDefs.xsd">
 		<InternalName>GC3_Federation_Appearance_R</InternalName>
 		<DisplayName>Federation Reverse</DisplayName>
 		<DisplayIcon>Terran_Appearance_Icon.png</DisplayIcon>
-		<DiffuseGradientRow1>246</DiffuseGradientRow1>
+		<DiffuseGradientRow1>0</DiffuseGradientRow1>
 		<DiffuseGradientRow2>0</DiffuseGradientRow2>
-		<LightGradientRow1>0</LightGradientRow1>
-		<LightGradientRow2>1</LightGradientRow2>
+		<LightGradientRow1>1</LightGradientRow1>
+		<LightGradientRow2>0</LightGradientRow2>
 		<LightGradientRow3>250</LightGradientRow3>
 		<SurfaceScale1>170.0</SurfaceScale1>
 		<SurfaceWeight1>0.4</SurfaceWeight1>

@@ -228,6 +228,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <ComponentType>TransportModule</ComponentType>
     <ComponentType>LifeSupport</ComponentType>
     <ComponentType>InterstellarDrive</ComponentType>
+	<ComponentType>LifeSupport</ComponentType>
   </ShipBlueprint>
 
   

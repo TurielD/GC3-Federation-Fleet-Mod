@@ -82,7 +82,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     
 	<ShipClass>FederationCruiser</ShipClass> <!-- Galaxy -->
     <ShipClass>FederationCruiserL</ShipClass> <!-- Galaxy -->
-    <ShipClass>FederationCruiserP</ShipClass> <!-- Galaxy -->
+
     <ShipClass>FederationCruiserD</ShipClass> <!-- Galaxy -->
     
 	<!-- no federation large Missile ship

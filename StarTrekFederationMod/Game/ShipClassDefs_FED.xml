@@ -619,7 +619,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <BlueprintDef>CruiserLBlueprint</BlueprintDef>
   </ShipClass>
  
-  <!-- Begin Ship -->
+  <!-- don't want high-range
  
   <ShipClass>
     <InternalName>FederationCruiserP</InternalName>
@@ -632,7 +632,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <AIShipClass>CapitalShip</AIShipClass>
     <StrategicIcon>Cruiser</StrategicIcon>
     <BlueprintDef>CruiserPBlueprint</BlueprintDef>
-  </ShipClass>
+  </ShipClass> -->
  
   <!-- Begin Ship -->
  
