@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechSpecializationList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TechSpecializationDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- FederationTechSpecializationDefs.xml -->
+ 
+  <TechSpecialization>
+    <InternalName>FederationIndustrialSpecialization</InternalName>
+    <DisplayName>FederationIndustrialSpecialization_Name</DisplayName>
+    <ShortDescription>FederationIndustrialSpecialization_ShortDec</ShortDescription>
+    <Description>FederationIndustrialSpecialization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationConstructionOptimization</InternalName>
+    <DisplayName>FederationConstructionOptimization_Name</DisplayName>
+    <ShortDescription>FederationConstructionOptimization_ShortDec</ShortDescription>
+    <Description>FederationConstructionOptimization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationManufacturingFocus</InternalName>
+    <DisplayName>FederationManufacturingFocus_Name</DisplayName>
+    <ShortDescription>FederationManufacturingFocus_ShortDec</ShortDescription>
+    <Description>FederationManufacturingFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationIndustrialMastery</InternalName>
+    <DisplayName>FederationIndustrialMastery_Name</DisplayName>
+    <ShortDescription>FederationIndustrialMastery_ShortDec</ShortDescription>
+    <Description>FederationIndustrialMastery_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationResearchOptimization</InternalName>
+    <DisplayName>FederationResearchOptimization_Name</DisplayName>
+    <ShortDescription>FederationResearchOptimization_ShortDec</ShortDescription>
+    <Description>FederationResearchOptimization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationTechnologicalFocus</InternalName>
+    <DisplayName>FederationTechnologicalFocus_Name</DisplayName>
+    <ShortDescription>FederationTechnologicalFocus_ShortDec</ShortDescription>
+    <Description>FederationTechnologicalFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Production_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPlanetarySpecialization</InternalName>
+    <DisplayName>FederationPlanetarySpecialization_Name</DisplayName>
+    <ShortDescription>FederationPlanetarySpecialization_ShortDec</ShortDescription>
+    <Description>FederationPlanetarySpecialization_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Support_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationAgriculturalOptimization</InternalName>
+    <DisplayName>FederationAgriculturalOptimization_Name</DisplayName>
+    <ShortDescription>FederationAgriculturalOptimization_ShortDec</ShortDescription>
+    <Description>FederationAgriculturalOptimization_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Support_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationFarmingFocus</InternalName>
+    <DisplayName>FederationFarmingFocus_Name</DisplayName>
+    <ShortDescription>FederationFarmingFocus_ShortDec</ShortDescription>
+    <Description>FederationFarmingFocus_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Support_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationAgriculturalMastery</InternalName>
+    <DisplayName>FederationAgriculturalMastery_Name</DisplayName>
+    <ShortDescription>FederationAgriculturalMastery_ShortDec</ShortDescription>
+    <Description>FederationAgriculturalMastery_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Support_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationEnvironmentOptimization</InternalName>
+    <DisplayName>FederationEnvironmentOptimization_Name</DisplayName>
+    <ShortDescription>FederationEnvironmentOptimization_ShortDec</ShortDescription>
+    <Description>FederationEnvironmentOptimization_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Support_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationColonizationFocus</InternalName>
+    <DisplayName>FederationColonizationFocus_Name</DisplayName>
+    <ShortDescription>FederationColonizationFocus_ShortDec</ShortDescription>
+    <Description>FederationColonizationFocus_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Colonization_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationBiospherePerfection</InternalName>
+    <DisplayName>FederationBiospherePerfection_Name</DisplayName>
+    <ShortDescription>FederationBiospherePerfection_ShortDec</ShortDescription>
+    <Description>FederationBiospherePerfection_Dec</Description>
+    <ColorDef>TechLemon</ColorDef>
+    <Icon>GC3_Colonization_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationInterstellarSpecialization</InternalName>
+    <DisplayName>FederationInterstellarSpecialization_Name</DisplayName>
+    <ShortDescription>FederationInterstellarSpecialization_ShortDec</ShortDescription>
+    <Description>FederationInterstellarSpecialization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationIonOptimization</InternalName>
+    <DisplayName>FederationIonOptimization_Name</DisplayName>
+    <ShortDescription>FederationIonOptimization_ShortDec</ShortDescription>
+    <Description>FederationIonOptimization_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Drives_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationWarpFieldFocus</InternalName>
+    <DisplayName>FederationWarpFieldFocus_Name</DisplayName>
+    <ShortDescription>FederationWarpFieldFocus_ShortDec</ShortDescription>
+    <Description>FederationWarpFieldFocus_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Drives_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationHyperwarpMastery</InternalName>
+    <DisplayName>FederationHyperwarpMastery_Name</DisplayName>
+    <ShortDescription>FederationHyperwarpMastery_ShortDec</ShortDescription>
+    <Description>FederationHyperwarpMastery_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Drives_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationSensorOptimization</InternalName>
+    <DisplayName>FederationSensorOptimization_Name</DisplayName>
+    <ShortDescription>FederationSensorOptimization_ShortDec</ShortDescription>
+    <Description>FederationSensorOptimization_Dec</Description>
+    <ColorDef>TechCyan</ColorDef>
+    <Icon>GC3_Sensors_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationEnergyFieldFocus</InternalName>
+    <DisplayName>FederationEnergyFieldFocus_Name</DisplayName>
+    <ShortDescription>FederationEnergyFieldFocus_ShortDec</ShortDescription>
+    <Description>FederationEnergyFieldFocus_Dec</Description>
+    <ColorDef>TechCyan</ColorDef>
+    <Icon>GC3_Sensors_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationSensorMastery</InternalName>
+    <DisplayName>FederationSensorMastery_Name</DisplayName>
+    <ShortDescription>FederationSensorMastery_ShortDec</ShortDescription>
+    <Description>FederationSensorMastery_Dec</Description>
+    <ColorDef>TechCyan</ColorDef>
+    <Icon>GC3_Sensors_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPrecursorRelicFocus</InternalName>
+    <DisplayName>FederationPrecursorRelicFocus_Name</DisplayName>
+    <ShortDescription>FederationPrecursorRelicFocus_ShortDec</ShortDescription>
+    <Description>FederationPrecursorRelicFocus_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationLifeSupportOptimization</InternalName>
+    <DisplayName>FederationLifeSupportOptimization_Name</DisplayName>
+    <ShortDescription>FederationLifeSupportOptimization_ShortDec</ShortDescription>
+    <Description>FederationLifeSupportOptimization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationSupportFieldFocus</InternalName>
+    <DisplayName>FederationSupportFieldFocus_Name</DisplayName>
+    <ShortDescription>FederationSupportFieldFocus_ShortDec</ShortDescription>
+    <Description>FederationSupportFieldFocus_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationLifeSupportMastery</InternalName>
+    <DisplayName>FederationLifeSupportMastery_Name</DisplayName>
+    <ShortDescription>FederationLifeSupportMastery_ShortDec</ShortDescription>
+    <Description>FederationLifeSupportMastery_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationOrbitalSpecialization</InternalName>
+    <DisplayName>FederationOrbitalSpecialization_Name</DisplayName>
+    <ShortDescription>FederationOrbitalSpecialization_ShortDec</ShortDescription>
+    <Description>FederationOrbitalSpecialization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationZeroGravityOptimization</InternalName>
+    <DisplayName>FederationZeroGravityOptimization_Name</DisplayName>
+    <ShortDescription>FederationZeroGravityOptimization_ShortDec</ShortDescription>
+    <Description>FederationZeroGravityOptimization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationOrbitalConstructionFocus</InternalName>
+    <DisplayName>FederationOrbitalConstructionFocus_Name</DisplayName>
+    <ShortDescription>FederationOrbitalConstructionFocus_ShortDec</ShortDescription>
+    <Description>FederationOrbitalConstructionFocus_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationHullMastery</InternalName>
+    <DisplayName>FederationHullMastery_Name</DisplayName>
+    <ShortDescription>FederationHullMastery_ShortDec</ShortDescription>
+    <Description>FederationHullMastery_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>field</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationCarrierFocus</InternalName>
+    <DisplayName>FederationCarrierFocus_Name</DisplayName>
+    <ShortDescription>FederationCarrierFocus_ShortDec</ShortDescription>
+    <Description>FederationCarrierFocus_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationLogisticalOptimization</InternalName>
+    <DisplayName>FederationLogisticalOptimization_Name</DisplayName>
+    <ShortDescription>FederationLogisticalOptimization_ShortDec</ShortDescription>
+    <Description>FederationLogisticalOptimization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Intersteller_Craft_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationWeaponsSpecialization</InternalName>
+    <DisplayName>FederationWeaponsSpecialization_Name</DisplayName>
+    <ShortDescription>FederationWeaponsSpecialization_ShortDec</ShortDescription>
+    <Description>FederationWeaponsSpecialization_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Beam_Weapons_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationBeamWeaponOptimization</InternalName>
+    <DisplayName>FederationBeamWeaponOptimization_Name</DisplayName>
+    <ShortDescription>FederationBeamWeaponOptimization_ShortDec</ShortDescription>
+    <Description>FederationBeamWeaponOptimization_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Beam_Weapons_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationHighEnergyFocus</InternalName>
+    <DisplayName>FederationHighEnergyFocus_Name</DisplayName>
+    <ShortDescription>FederationHighEnergyFocus_ShortDec</ShortDescription>
+    <Description>FederationHighEnergyFocus_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Beam_Weapons_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationBeamWeaponMastery</InternalName>
+    <DisplayName>FederationBeamWeaponMastery_Name</DisplayName>
+    <ShortDescription>FederationBeamWeaponMastery_ShortDec</ShortDescription>
+    <Description>FederationBeamWeaponMastery_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Beam_Weapons_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationMissileOptimization</InternalName>
+    <DisplayName>FederationMissileOptimization_Name</DisplayName>
+    <ShortDescription>FederationMissileOptimization_ShortDec</ShortDescription>
+    <Description>FederationMissileOptimization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Missile_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationWarheadFocus</InternalName>
+    <DisplayName>FederationWarheadFocus_Name</DisplayName>
+    <ShortDescription>FederationWarheadFocus_ShortDec</ShortDescription>
+    <Description>FederationWarheadFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Missile_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPayloadMastery</InternalName>
+    <DisplayName>FederationPayloadMastery_Name</DisplayName>
+    <ShortDescription>FederationPayloadMastery_ShortDec</ShortDescription>
+    <Description>FederationPayloadMastery_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Missile_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationKineticOptimization</InternalName>
+    <DisplayName>FederationKineticOptimization_Name</DisplayName>
+    <ShortDescription>FederationKineticOptimization_ShortDec</ShortDescription>
+    <Description>FederationKineticOptimization_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Kinetic_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationKineticAccelerationFocus</InternalName>
+    <DisplayName>Defiant Research Project</DisplayName>
+    <ShortDescription>FederationKineticAccelerationFocus_ShortDec</ShortDescription>
+    <Description>FederationKineticAccelerationFocus_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Kinetic_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationKineticMastery</InternalName>
+    <DisplayName>FederationKineticMastery_Name</DisplayName>
+    <ShortDescription>FederationKineticMastery_ShortDec</ShortDescription>
+    <Description>FederationKineticMastery_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Kinetic_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationMilitarySpecialization</InternalName>
+    <DisplayName>FederationMilitarySpecialization_Name</DisplayName>
+    <ShortDescription>FederationMilitarySpecialization_ShortDec</ShortDescription>
+    <Description>FederationMilitarySpecialization_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Invasion_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationInvasionOptimization</InternalName>
+    <DisplayName>FederationInvasionOptimization_Name</DisplayName>
+    <ShortDescription>FederationInvasionOptimization_ShortDec</ShortDescription>
+    <Description>FederationInvasionOptimization_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Invasion_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationGravitationalFocus</InternalName>
+    <DisplayName>FederationGravitationalFocus_Name</DisplayName>
+    <ShortDescription>FederationGravitationalFocus_ShortDec</ShortDescription>
+    <Description>FederationGravitationalFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Marines_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationDefensiveFocus</InternalName>
+    <DisplayName>FederationDefensiveFocus_Name</DisplayName>
+    <ShortDescription>FederationDefensiveFocus_ShortDec</ShortDescription>
+    <Description>FederationDefensiveFocus_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Invasion_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationDefensiveSpecialization</InternalName>
+    <DisplayName>FederationDefensiveSpecialization_Name</DisplayName>
+    <ShortDescription>FederationDefensiveSpecialization_ShortDec</ShortDescription>
+    <Description>FederationDefensiveSpecialization_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Shields_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationShieldOptimization</InternalName>
+    <DisplayName>FederationShieldOptimization_Name</DisplayName>
+    <ShortDescription>FederationShieldOptimization_ShortDec</ShortDescription>
+    <Description>FederationShieldOptimization_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Shields_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationBarrierSystemFocus</InternalName>
+    <DisplayName>FederationBarrierSystemFocus_Name</DisplayName>
+    <ShortDescription>FederationBarrierSystemFocus_ShortDec</ShortDescription>
+    <Description>FederationBarrierSystemFocus_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Shields_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationShieldMastery</InternalName>
+    <DisplayName>FederationShieldMastery_Name</DisplayName>
+    <ShortDescription>FederationShieldMastery_ShortDec</ShortDescription>
+    <Description>FederationShieldMastery_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
+    <Icon>GC3_Shields_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPointDefenseOptimization</InternalName>
+    <DisplayName>FederationPointDefenseOptimization_Name</DisplayName>
+    <ShortDescription>FederationPointDefenseOptimization_ShortDec</ShortDescription>
+    <Description>FederationPointDefenseOptimization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Point_Defense_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationCounterMeasureFocus</InternalName>
+    <DisplayName>FederationCounterMeasureFocus_Name</DisplayName>
+    <ShortDescription>FederationCounterMeasureFocus_ShortDec</ShortDescription>
+    <Description>FederationCounterMeasureFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Point_Defense_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationDroneSystemMastery</InternalName>
+    <DisplayName>FederationDroneSystemMastery_Name</DisplayName>
+    <ShortDescription>FederationDroneSystemMastery_ShortDec</ShortDescription>
+    <Description>FederationDroneSystemMastery_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Point_Defense_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationArmorOptimization</InternalName>
+    <DisplayName>FederationArmorOptimization_Name</DisplayName>
+    <ShortDescription>FederationArmorOptimization_ShortDec</ShortDescription>
+    <Description>FederationArmorOptimization_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Armor_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationArmorFocus</InternalName>
+    <DisplayName>FederationArmorFocus_Name</DisplayName>
+    <ShortDescription>FederationArmorFocus_ShortDec</ShortDescription>
+    <Description>FederationArmorFocus_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Armor_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationArmorMastery</InternalName>
+    <DisplayName>FederationArmorMastery_Name</DisplayName>
+    <ShortDescription>FederationArmorMastery_ShortDec</ShortDescription>
+    <Description>FederationArmorMastery_Dec</Description>
+    <ColorDef>TechRed</ColorDef>
+    <Icon>GC3_Armor_Tech_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationDiplomaticSpecialization</InternalName>
+    <DisplayName>FederationDiplomaticSpecialization_Name</DisplayName>
+    <ShortDescription>FederationDiplomaticSpecialization_ShortDec</ShortDescription>
+    <Description>FederationDiplomaticSpecialization_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPoliticalSpecialization</InternalName>
+    <DisplayName>FederationPoliticalSpecialization_Name</DisplayName>
+    <ShortDescription>FederationPoliticalSpecialization_ShortDec</ShortDescription>
+    <Description>FederationPoliticalSpecialization_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPoliticalFocus</InternalName>
+    <DisplayName>FederationPoliticalFocus_Name</DisplayName>
+    <ShortDescription>FederationPoliticalFocus_ShortDec</ShortDescription>
+    <Description>FederationPoliticalFocus_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationPoliticalMastery</InternalName>
+    <DisplayName>FederationPoliticalMastery_Name</DisplayName>
+    <ShortDescription>FederationPoliticalMastery_ShortDec</ShortDescription>
+    <Description>FederationPoliticalMastery_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationDiplomaticOptimization</InternalName>
+    <DisplayName>FederationDiplomaticOptimization_Name</DisplayName>
+    <ShortDescription>FederationDiplomaticOptimization_ShortDec</ShortDescription>
+    <Description>FederationDiplomaticOptimization_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationAllianceFocus</InternalName>
+    <DisplayName>FederationAllianceFocus_Name</DisplayName>
+    <ShortDescription>FederationAllianceFocus_ShortDec</ShortDescription>
+    <Description>FederationAllianceFocus_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationCulturalOptimization</InternalName>
+    <DisplayName>FederationCulturalOptimization_Name</DisplayName>
+    <ShortDescription>FederationCulturalOptimization_ShortDec</ShortDescription>
+    <Description>FederationCulturalOptimization_Dec</Description>
+    <ColorDef>TechCyan</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationCulturalFocus</InternalName>
+    <DisplayName>FederationCulturalFocus_Name</DisplayName>
+    <ShortDescription>FederationCulturalFocus_ShortDec</ShortDescription>
+    <Description>FederationCulturalFocus_Dec</Description>
+    <ColorDef>TechCyan</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationCommerceSpecialization</InternalName>
+    <DisplayName>FederationCommerceSpecialization_Name</DisplayName>
+    <ShortDescription>FederationCommerceSpecialization_ShortDec</ShortDescription>
+    <Description>FederationCommerceSpecialization_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationEconomicFocus</InternalName>
+    <DisplayName>FederationEconomicFocus_Name</DisplayName>
+    <ShortDescription>FederationEconomicFocus_ShortDec</ShortDescription>
+    <Description>FederationEconomicFocus_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationTradeOptimization</InternalName>
+    <DisplayName>FederationTradeOptimization_Name</DisplayName>
+    <ShortDescription>FederationTradeOptimization_ShortDec</ShortDescription>
+    <Description>FederationTradeOptimization_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationTradeFocus</InternalName>
+    <DisplayName>FederationTradeFocus_Name</DisplayName>
+    <ShortDescription>FederationTradeFocus_ShortDec</ShortDescription>
+    <Description>FederationTradeFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+  <TechSpecialization>
+    <InternalName>FederationApprovalFocus</InternalName>
+    <DisplayName>FederationApprovalFocus_Name</DisplayName>
+    <ShortDescription>FederationApprovalFocus_ShortDec</ShortDescription>
+    <Description>FederationApprovalFocus_Dec</Description>
+    <ColorDef>TechYellow</ColorDef>
+    <Icon>GC3_Economics_Icon.png</Icon>
+  </TechSpecialization>
+ 
+</TechSpecializationList>

@@ -30,7 +30,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>Farmers2</RaceTraits>
         <RaceTraits>Brutal4</RaceTraits>
         <RaceTraits>Courageous2</RaceTraits>
-		<RaceTraits>Accurate2</RaceTraits>
+		<RaceTraits>SharpEyed2</RaceTraits>
         <RaceTraits>Agile2</RaceTraits>
         <RaceTraits>Resilient4</RaceTraits>
         <RaceTraits>Adventuresome2</RaceTraits>
@@ -42,7 +42,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <StartingShips>ColonyStaticBlueprint</StartingShips>
         <StartingShips>SurveyStaticBlueprint</StartingShips>
         <StartingShips>ScoutStaticBlueprint</StartingShips>
-        <TechTree>Terran_Tree</TechTree>
+        <TechTree>Federation_Tree</TechTree>
         <ShipCallsign>FACTION_Federation_Callsign</ShipCallsign>
         <LogoImage>Fed1.png</LogoImage>
         <LeaderThumbnail>Archer.png</LeaderThumbnail>
