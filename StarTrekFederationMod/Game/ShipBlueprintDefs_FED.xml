@@ -294,7 +294,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<ComponentType>Armor</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
 	<ComponentType>Shields</ComponentType>
-	<ComponentType>GuardianCarrierModule</ComponentType>
+	<ComponentType>Shields</ComponentType>
+	<ComponentType>KineticAugment1</ComponentType>
     <FillerComponentType>KineticWeapon</FillerComponentType>
     <FillerComponentType>LifeSupport</FillerComponentType>
 	<FillerComponentType>KineticWeapon</FillerComponentType>
