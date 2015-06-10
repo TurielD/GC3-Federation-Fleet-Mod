@@ -2709,7 +2709,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationMissileWeapons_Name</Label>
-    <String>Missile Weapons</String>
+    <String>Proton Torpedoes</String>
   </StringTable>
  
   <StringTable>
@@ -2769,7 +2769,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationHarpoonTech_Name</Label>
-    <String>Harpoons</String>
+    <String>Early Photons</String>
   </StringTable>
  
   <StringTable>
@@ -5741,12 +5741,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBeamWeaponOptimization_Name</Label>
-    <String>Beam Weapon Optimization</String>
+    <String>Phaser Optimization</String>
   </StringTable>
  
   <StringTable>
     <Label>FederationBeamWeaponOptimization_ShortDec</Label>
-    <String>Improves beam weapons.</String>
+    <String>Improves Phasers.</String>
   </StringTable>
  
   <StringTable>
@@ -5771,12 +5771,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationBeamWeaponMastery_Name</Label>
-    <String>Beam Weapon Mastery</String>
+    <String>Phaser Mastery</String>
   </StringTable>
  
   <StringTable>
     <Label>FederationBeamWeaponMastery_ShortDec</Label>
-    <String>Improves beam weapons.</String>
+    <String>Improves Phasers.</String>
   </StringTable>
  
   <StringTable>

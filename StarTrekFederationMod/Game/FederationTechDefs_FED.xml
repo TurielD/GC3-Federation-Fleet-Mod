@@ -6809,6 +6809,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
     <TechTree>Federation_Tree</TechTree>
     <ShortDescription>FederationBeamWeaponAugmentation_ShortDec</ShortDescription>
     <Description>FederationBeamWeaponAugmentation_Dec</Description>
+    <ColorDef>TechPurple</ColorDef>
     <ResearchCost>141</ResearchCost>
     <TechPoints>1</TechPoints>
     <Tags>Beam</Tags>
@@ -7673,7 +7674,8 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
     <TechTree>Federation_Tree</TechTree>
     <ShortDescription>FederationKineticAccelerationFocus1_ShortDec</ShortDescription>
     <Description>FederationKineticAccelerationFocus1_Dec</Description>
-    <ResearchCost>480</ResearchCost>
+    <ColorDef>TechRed</ColorDef>
+	<ResearchCost>480</ResearchCost>
     <TechPoints>1</TechPoints>
     <Tags>Kinetic</Tags>
     <AICategoryWeight>
@@ -8107,6 +8109,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
     <TechTree>Federation_Tree</TechTree>
     <ShortDescription>FederationHighEnergyTransfer_ShortDec</ShortDescription>
     <Description>FederationHighEnergyTransfer_Dec</Description>
+    <ColorDef>TechBlue</ColorDef>
     <ResearchCost>204</ResearchCost>
     <TechPoints>1</TechPoints>
     <Tags>Beam</Tags>
