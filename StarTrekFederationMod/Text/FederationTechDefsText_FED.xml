@@ -2595,7 +2595,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   <StringTable>
     <Label>FederationPlasmaProjection_ShortDec</Label>
     <String>Allows construction of Phasers which make use of excess Warp plasma.</String>
-  </StringTable>0
+  </StringTable>
  
   <StringTable>
     <Label>FederationPlasmaProjection_Dec</Label>
