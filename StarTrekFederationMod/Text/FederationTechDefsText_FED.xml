@@ -3069,7 +3069,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FederationGravitonThrower_Name</Label>
-    <String>Graviton Thrower</String>
+    <String>Mass-production Pulse Phasers</String>
   </StringTable>
  
   <StringTable>
