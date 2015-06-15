@@ -131,8 +131,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 	<ComponentType>Sensor</ComponentType>
     <ComponentType>LifeSupport</ComponentType>
     <ComponentType>InterstellarDrive</ComponentType>
-    <FillerComponentType>LifeSupport</FillerComponentType>
     <FillerComponentType>Sensor</FillerComponentType>
+	<FillerComponentType>LifeSupport</FillerComponentType>
   </ShipBlueprint>
  
   
@@ -223,12 +223,10 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
     <ComponentType>InterstellarDrive</ComponentType>
 	<ComponentType>LifeSupport</ComponentType>
     <ComponentType>LifeSupport</ComponentType>
-    <ComponentType>Sensor</ComponentType>
     <ComponentType>InterstellarDrive</ComponentType>
     <ComponentType>TransportModule</ComponentType>
     <ComponentType>LifeSupport</ComponentType>
     <ComponentType>InterstellarDrive</ComponentType>
-	<ComponentType>LifeSupport</ComponentType>
   </ShipBlueprint>
 
   
