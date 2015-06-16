@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarbaseModuleList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarbaseModuleDefs.xml -->
+ 
+
+<!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedAdvancedStarbaseDefenseSystem</InternalName>
+    <DisplayName>AdvancedStarbaseDefenseSystem_Name</DisplayName>
+    <Description>AdvancedStarbaseDefenseSystem_Dec</Description>
+    <Icon>GC3_Starbase_Defense_System.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>MissileWeapon</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>MissileAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FedWeaponsSystemsTech</Option>
+      </Techs>
+      <UpgradesFrom>StarbaseDefenseSystem</UpgradesFrom>
+    </Prerequ>
+ 
+  </StarbaseModule>
+  
+  <!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedRailgunRackModule</InternalName>
+    <DisplayName>Pulse Phaser Banks</DisplayName>
+    <Description>RailgunRackModule_Dec</Description>
+    <Icon>GC3_Kinetic_Attack_Stat_Icon.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>12</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FederationDefiantTech</Option>
+		<Option>FedDefiantTech</Option>
+      </Techs>
+      <StarbaseModule>StarbaseDefenseSystem</StarbaseModule>
+    </Prerequ>
+ 
+  </StarbaseModule>
+ 
+ <!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedMountedPulseCannonModule</InternalName>
+    <DisplayName>MountedPulseCannonModule_Name</DisplayName>
+    <Description>MountedPulseCannonModule_Dec</Description>
+    <Icon>GC3_Kinetic_Attack_Stat_Icon.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>KineticAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FedBeamWeaponAugmentation</Option>
+      </Techs>
+      <UpgradesFrom>FedRailgunRackModule</UpgradesFrom>
+    </Prerequ>
+ 
+  </StarbaseModule>
+ 
+
+<!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedParticleBeamModule</InternalName>
+    <DisplayName>ParticleBeamModule_Name</DisplayName>
+    <Description>ParticleBeamModule_Dec</Description>
+    <Icon>GC3_Beam_Attack_Stat_Icon.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>18</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FedBeamWeapons</Option>
+      </Techs>
+      <StarbaseModule>StarbaseDefenseSystem</StarbaseModule>
+    </Prerequ>
+ 
+  </StarbaseModule>
+ 
+<!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedDisruptorModule</InternalName>
+    <DisplayName>DisruptorModule_Name</DisplayName>
+    <Description>DisruptorModule_Dec</Description>
+    <Icon>GC3_Beam_Attack_Stat_Icon.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>27</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FedMatterDisruption</Option>
+      </Techs>
+      <UpgradesFrom>ParticleBeamModule</UpgradesFrom>
+    </Prerequ>
+ 
+  </StarbaseModule>
+ 
+<!-- Module -->
+ 
+  <StarbaseModule>
+    <InternalName>FedPlasmaTurretModule</InternalName>
+    <DisplayName>PlasmaTurretModule_Name</DisplayName>
+    <Description>PlasmaTurretModule_Dec</Description>
+    <Icon>GC3_Beam_Attack_Stat_Icon.png</Icon>
+    <SpecializationType>Generic</SpecializationType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>36</Value>
+    </Stats>
+ 
+    <Prerequ>
+      <Techs>
+        <Option>FedPlasmaProjection</Option>
+      </Techs>
+      <UpgradesFrom>DisruptorModule</UpgradesFrom>
+    </Prerequ>
+ 
+  </StarbaseModule>
+ 
+ 
+</StarbaseModuleList>

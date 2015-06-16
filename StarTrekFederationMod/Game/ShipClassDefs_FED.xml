@@ -788,7 +788,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
   </ShipClass>
  
    <!-- Begin Ship -->
- 
+
    <ShipClass>
     <InternalName>FederationSovereign</InternalName>
     <DisplayName>FederationSovereign_Class_Name</DisplayName>

@@ -45,16 +45,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
 	
     <ShipClass>FederationGuardian</ShipClass> <!-- Peregrine -->
     <ShipClass>AIDefenseFederationGuardian</ShipClass> <!-- Peregrine -->
-    <ShipClass>PrototypeFederationGuardian</ShipClass> <!-- Peregrine -->	
+   <!-- <ShipClass>PrototypeFederationGuardian</ShipClass> Peregrine -->	
 
 
 
 	
     <ShipClass>FederationCutter</ShipClass> <!-- Centaur -->
-    <ShipClass>FederationCutterL</ShipClass> <!-- Centaur -->
+    <!-- <ShipClass>FederationCutterL</ShipClass>  Centaur -->
 	
     <ShipClass>FederationDefender</ShipClass> <!-- D'kyr -->
-    <ShipClass>FederationDefenderL</ShipClass> <!-- D'kyr -->
+    <!-- <ShipClass>FederationDefenderL</ShipClass>  D'kyr -->
 	
     <ShipClass>FederationGunboat</ShipClass> <!-- Centaur -->
     <ShipClass>FederationGunboatL</ShipClass> <!-- Centaur -->
@@ -63,11 +63,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
  
 	
     <ShipClass>FederationCorvette</ShipClass> <!-- Constitution Refit -->
-    <ShipClass>FederationCorvetteL</ShipClass> <!-- Constitution Refit -->
+    <!-- <ShipClass>FederationCorvetteL</ShipClass>  Constitution Refit -->
     <ShipClass>FederationCorvetteP</ShipClass> <!-- Constitution Refit -->
 	
     <ShipClass>FederationRanger</ShipClass> <!-- Miranda -->
-    <ShipClass>FederationRangerL</ShipClass> <!-- Miranda -->
+    <!-- <ShipClass>FederationRangerL</ShipClass>  Miranda -->
     <ShipClass>FederationRangerP</ShipClass> <!-- Miranda -->
 	
 	<ShipClass>FederationIntrepid</ShipClass>
@@ -116,7 +116,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
 	Not sure a titan type is desirable, will consider -->
 	
     <ShipClass>FederationCarrier</ShipClass> <!-- Galaxy -->
-    <ShipClass>FederationAssaultCarrier</ShipClass> <!-- Odyssey -->
+ <!--   <ShipClass>FederationAssaultCarrier</ShipClass> Odyssey -->
 
 	<ShipClass>FederationBeamSupport</ShipClass> <!-- Galaxy; would like Nebula -->
    

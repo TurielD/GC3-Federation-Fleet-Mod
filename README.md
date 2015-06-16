@@ -11,6 +11,7 @@ As its description states: "This is (an early version of) a ShipStyle mod for Ga
 **Aknowledgements**:
 Federation faction images contributed by 00zim00, who has a whole set of Star Trek images available here:
 http://forums.galciv3.com/465270/page/1/
+Extensive QA testing and bug-hunting (that damned ship-design crash bug) by dansiegel30, really helped in tracking down a major issue.
 
 
 
@@ -26,6 +27,15 @@ http://forums.galciv3.com/465270/page/1/
 
 
 **Changelog**:
+
+vB2
+* Fixed the ship-design crashing bug (thanks to dansiegel30)
+* Added a Federation-specific tech tree, with re-arranged weapon techs to focus on beams.
+* Re-worked names and descriptions of many faction weapons and techs to give them a more star-trek feel
+* Replaced some beam graphics to bring them more in line with Phaser looks
+* Added a second-tier prototype Elerium beam, in line with missile and kinetic weapon trees
+* trimmed some bad designs (beam and missile -L variant medium ships)
+
 
 vB1
 * Added federation faction (with images courtesy of 00zim00), which will automatically use the correct templates, colours and custom solarsystem.
