@@ -165,7 +165,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ComponentClassDefs.xsd">
 
   <ComponentClass>
     <UniqueID>EscortCarrierModule</UniqueID>
-    <PrimaryStat>EscortFightersCap</PrimaryStat>
+    <PrimaryStat>AssaultFightersCap</PrimaryStat>
   </ComponentClass>
   
   <ComponentClass>  

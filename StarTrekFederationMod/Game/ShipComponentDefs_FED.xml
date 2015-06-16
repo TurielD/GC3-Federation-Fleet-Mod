@@ -88,7 +88,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <InternalName>PrototypeFedPHaser</InternalName>
     <DisplayName>Prototype Phaser</DisplayName>
     <Description>PrototypeWeapon_Dec</Description>
-    <ArtDefine>WeaponModel_16</ArtDefine>
+    <ArtDefine>WeaponModel_06</ArtDefine>
     <Category>Weapons</Category>
     <Type>BeamWeaponEnhanced</Type>
     <PlacementType>Weapon</PlacementType>
@@ -162,6 +162,85 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     </Prerequ>
   </ShipComponent>
 
+    <ShipComponent>
+    <InternalName>PrototypeFedPHaser2</InternalName>
+    <DisplayName>Elerium-Enhanced Phaser</DisplayName>
+    <Description>A phaser array infused with rare Elerium</Description>
+    <ArtDefine>WeaponModel_16</ArtDefine>
+    <Category>Weapons</Category>
+    <Type>BeamWeaponEnhanced</Type>
+    <PlacementType>Weapon</PlacementType>
+    <WeaponFX>
+     <EmissionFX>BeamParticle_Emission</EmissionFX>
+     <ProjectionFX>BeamParticle</ProjectionFX>
+     <HitFX>BeamParticle_Hit</HitFX>
+     <DeflectionFX>BeamParticle_Deflection</DeflectionFX>
+    </WeaponFX>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>24</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamMass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>14</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamWeapon</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Stats>
+      <EffectType>BeamAttack</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>24</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.25</Value>
+    </Stats>
+    <Stats>
+      <EffectType>EleriumCost</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <Prerequ>
+      <Techs>
+        <Option>FedMatterDisruption</Option>
+      </Techs>
+    </Prerequ>
+  </ShipComponent>
+  
+  
   <ShipComponent>
     <InternalName>FedLasers</InternalName>
     <DisplayName>Early Phasers</DisplayName>
@@ -306,15 +385,15 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <InternalName>FedDisrupters</InternalName>
     <DisplayName>Phaser Array</DisplayName>
     <Description>Disrupters_Dec</Description>
-    <ArtDefine>WeaponModel_17</ArtDefine>
+    <ArtDefine>WeaponModel_30</ArtDefine>
     <Category>Weapons</Category>
     <Type>BeamWeapon</Type>
     <PlacementType>Weapon</PlacementType>
     <WeaponFX>
-     <EmissionFX>BeamParticle_Emission</EmissionFX>
-     <ProjectionFX>BeamParticle</ProjectionFX>
-     <HitFX>BeamParticle_Hit</HitFX>
-     <DeflectionFX>BeamParticle_Deflection</DeflectionFX>
+     <EmissionFX>BeamPhasor_Emission</EmissionFX>
+     <ProjectionFX>BeamPhasor</ProjectionFX>
+     <HitFX>BeamPhasor_Hit</HitFX>
+     <DeflectionFX>BeamPhasor_Deflection</DeflectionFX>
     </WeaponFX>
     <Stats>
       <EffectType>Threat</EffectType>
@@ -376,15 +455,15 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
     <InternalName>FedPlasma</InternalName>
     <DisplayName>Advanced Phaser Array</DisplayName>
     <Description>Plasma_Dec</Description>
-    <ArtDefine>WeaponModel_18</ArtDefine>
+    <ArtDefine>WeaponModel_30</ArtDefine>
     <Category>Weapons</Category>
     <Type>BeamWeapon</Type>
     <PlacementType>Weapon</PlacementType>
     <WeaponFX>
-     <EmissionFX>BeamParticle_Emission</EmissionFX>
-     <ProjectionFX>BeamParticle</ProjectionFX>
-     <HitFX>BeamParticle_Hit</HitFX>
-     <DeflectionFX>BeamParticle_Deflection</DeflectionFX>
+     <EmissionFX>BeamPhasor_Emission</EmissionFX>
+     <ProjectionFX>BeamPhasor</ProjectionFX>
+     <HitFX>BeamPhasor_Hit</HitFX>
+     <DeflectionFX>BeamPhasor_Deflection</DeflectionFX>
     </WeaponFX>
     <Stats>
       <EffectType>Threat</EffectType>
