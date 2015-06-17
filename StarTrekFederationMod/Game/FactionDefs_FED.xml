@@ -40,7 +40,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <RequiresHomeworld>true</RequiresHomeworld>
         <HomeStarSystem>FedSystem</HomeStarSystem>
         <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>SurveyStaticBlueprint</StartingShips>
+        <StartingShips>FedSurveyStaticBlueprint</StartingShips>
         <StartingShips>ScoutStaticBlueprint</StartingShips>
         <TechTree>Federation_Tree</TechTree>
         <ShipCallsign>FACTION_Federation_Callsign</ShipCallsign>

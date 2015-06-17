@@ -111,7 +111,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <ShipDesign>Constitution Early Template_46BD49FA73164FE9B8F86BB33681631E</ShipDesign>
     <AIShipClass>Survey</AIShipClass>
     <StrategicIcon>SurveyShip</StrategicIcon>
-    <StaticBlueprintDef>SurveyStaticBlueprint</StaticBlueprintDef> <!-- FedStartingSurveyBlueprint? if only that worked... -->
+    <StaticBlueprintDef>FedSurveyStaticBlueprint</StaticBlueprintDef> <!-- FedStartingSurveyBlueprint? if only that worked... -->
   </ShipClass>
  
    <!-- Begin Ship -->

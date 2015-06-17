@@ -7,7 +7,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StaticShipBlueprintDefs.xsd">
 
 
   <StaticShipBlueprint>
-    <InternalName>SurveyStaticBlueprint2</InternalName>
+    <InternalName>FedSurveyStaticBlueprint</InternalName>
     <ShipHullType>Medium</ShipHullType>
     <Role>Support</Role>
     <CanBeBuilt>false</CanBeBuilt>
@@ -19,8 +19,8 @@ xsi:noNamespaceSchemaLocation="../Schema/StaticShipBlueprintDefs.xsd">
     <ShipComponents>SurveyModule</ShipComponents>
     <ShipComponents>Lasers</ShipComponents>
     <ShipComponents>Stinger</ShipComponents>
-    <ShipComponents>Railgun</ShipComponents>
-    <ShipComponents>HullPlating</ShipComponents>
+    <ShipComponents>Lasers</ShipComponents>
+    <ShipComponents>Deflectors</ShipComponents>
   </StaticShipBlueprint>
  
 </StaticShipBlueprintList>
